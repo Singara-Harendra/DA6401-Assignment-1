@@ -1,0 +1,20 @@
+{
+  "dataset": "mnist",
+  "epochs": 10,
+  "batch_size": 64,
+  "loss": "cross_entropy",
+  "optimizer": "rmsprop",
+  "learning_rate": 0.005,
+  "weight_decay": 0,
+  "num_layers": 3,
+  "hidden_size": 128,
+  "activation": "sigmoid",
+  "weight_init": "xavier",
+  "wandb_project": "da6401-mlp",
+  "wandb_entity": null,
+  "run_name": null,
+  "model_save_path": "best_model.npy",
+  "no_wandb": false,
+  "test_accuracy": 0.9762,
+  "test_f1": 0.975937
+}

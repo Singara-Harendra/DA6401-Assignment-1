@@ -1,0 +1,53 @@
+{
+  "os":  "Linux-6.8.0-101-generic-x86_64-with-glibc2.35",
+  "python":  "CPython 3.10.12",
+  "startedAt":  "2026-03-06T14:49:24.606403Z",
+  "args":  [
+    "--activation=sigmoid",
+    "--batch_size=128",
+    "--dataset=mnist",
+    "--epochs=10",
+    "--hidden_size=64",
+    "--learning_rate=0.005",
+    "--loss=cross_entropy",
+    "--num_layers=2",
+    "--optimizer=momentum",
+    "--weight_decay=0.0005",
+    "--weight_init=xavier"
+  ],
+  "program":  "/home/harendra/Desktop/DL assignment 1/da6401_assignment_1/src/train.py",
+  "codePath":  "src/train.py",
+  "codePathLocal":  "src/train.py",
+  "git":  {
+    "remote":  "https://github.com/Singara-Harendra/DA6401-Assignment-1",
+    "commit":  "c59c9e42634fabb60a51a4edb443fb44d233782f"
+  },
+  "email":  "da25m028@smail.iitm.ac.in",
+  "root":  "/home/harendra/Desktop/DL assignment 1/da6401_assignment_1",
+  "host":  "harendra-Aspire-A715-51G",
+  "executable":  "/home/harendra/Desktop/DL assignment 1/da6401_assignment_1/venv/bin/python",
+  "cpu_count":  12,
+  "cpu_count_logical":  16,
+  "gpu":  "NVIDIA GeForce GTX 1650",
+  "gpu_count":  1,
+  "disk":  {
+    "/":  {
+      "total":  "52525297664",
+      "used":  "21624659968"
+    }
+  },
+  "memory":  {
+    "total":  "8014782464"
+  },
+  "gpu_nvidia":  [
+    {
+      "name":  "NVIDIA GeForce GTX 1650",
+      "memoryTotal":  "4294967296",
+      "cudaCores":  896,
+      "architecture":  "Turing",
+      "uuid":  "GPU-62da593c-d767-9c08-740b-24f5035554e2"
+    }
+  ],
+  "cudaVersion":  "13.1",
+  "writerId":  "lcliunqucccnzyy1dp055xr1g4cnck3p"
+}

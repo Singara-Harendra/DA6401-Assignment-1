@@ -1,0 +1,12 @@
+{"time":"2026-03-06T21:20:50.548870177+05:30","level":"INFO","msg":"stream: starting","core version":"0.25.0"}
+{"time":"2026-03-06T21:20:51.067870748+05:30","level":"INFO","msg":"stream: created new stream","id":"yhgbylux"}
+{"time":"2026-03-06T21:20:51.067941486+05:30","level":"INFO","msg":"handler: started","stream_id":"yhgbylux"}
+{"time":"2026-03-06T21:20:51.06804533+05:30","level":"INFO","msg":"stream: started","id":"yhgbylux"}
+{"time":"2026-03-06T21:20:51.06806389+05:30","level":"INFO","msg":"sender: started","stream_id":"yhgbylux"}
+{"time":"2026-03-06T21:20:51.068063336+05:30","level":"INFO","msg":"writer: started","stream_id":"yhgbylux"}
+{"time":"2026-03-06T21:21:46.809514006+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-03-06T21:21:47.505931833+05:30","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2026-03-06T21:21:47.508055494+05:30","level":"INFO","msg":"stream: closing","id":"yhgbylux"}
+{"time":"2026-03-06T21:21:47.508069276+05:30","level":"INFO","msg":"handler: closed","stream_id":"yhgbylux"}
+{"time":"2026-03-06T21:21:47.50811985+05:30","level":"INFO","msg":"sender: closed","stream_id":"yhgbylux"}
+{"time":"2026-03-06T21:21:47.508123943+05:30","level":"INFO","msg":"stream: closed","id":"yhgbylux"}

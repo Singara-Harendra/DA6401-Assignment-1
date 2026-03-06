@@ -1,0 +1,14 @@
+Loaded mnist: train=54000  val=6000  test=10000
+Epoch 1/10  loss=2.2390  train_acc=0.0998  val_acc=0.0962
+Epoch 2/10  loss=2.0494  train_acc=0.2734  val_acc=0.2758
+Epoch 3/10  loss=2.0381  train_acc=0.2527  val_acc=0.2542
+Epoch 4/10  loss=2.0359  train_acc=0.2518  val_acc=0.2492
+Epoch 5/10  loss=2.0298  train_acc=0.1055  val_acc=0.1112
+Epoch 6/10  loss=2.0302  train_acc=0.2763  val_acc=0.2832
+Epoch 7/10  loss=2.0282  train_acc=0.1481  val_acc=0.1447
+Epoch 8/10  loss=2.0327  train_acc=0.1247  val_acc=0.1297
+Epoch 9/10  loss=2.0290  train_acc=0.2276  val_acc=0.2187
+Epoch 10/10  loss=2.0316  train_acc=0.2378  val_acc=0.2370
+
+Test Accuracy : 0.2872
+Test F1 Score : 0.1762

@@ -1,0 +1,12 @@
+{"time":"2026-03-06T21:50:00.978194858+05:30","level":"INFO","msg":"stream: starting","core version":"0.25.0"}
+{"time":"2026-03-06T21:50:01.546360904+05:30","level":"INFO","msg":"stream: created new stream","id":"wynttary"}
+{"time":"2026-03-06T21:50:01.546527483+05:30","level":"INFO","msg":"handler: started","stream_id":"wynttary"}
+{"time":"2026-03-06T21:50:01.546800607+05:30","level":"INFO","msg":"stream: started","id":"wynttary"}
+{"time":"2026-03-06T21:50:01.546810082+05:30","level":"INFO","msg":"writer: started","stream_id":"wynttary"}
+{"time":"2026-03-06T21:50:01.546871892+05:30","level":"INFO","msg":"sender: started","stream_id":"wynttary"}
+{"time":"2026-03-06T21:51:02.665171166+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-03-06T21:51:03.647847831+05:30","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2026-03-06T21:51:03.650340741+05:30","level":"INFO","msg":"stream: closing","id":"wynttary"}
+{"time":"2026-03-06T21:51:03.650355295+05:30","level":"INFO","msg":"handler: closed","stream_id":"wynttary"}
+{"time":"2026-03-06T21:51:03.650445222+05:30","level":"INFO","msg":"sender: closed","stream_id":"wynttary"}
+{"time":"2026-03-06T21:51:03.650452806+05:30","level":"INFO","msg":"stream: closed","id":"wynttary"}

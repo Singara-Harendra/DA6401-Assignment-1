@@ -1,0 +1,12 @@
+{"time":"2026-03-06T21:28:38.341009223+05:30","level":"INFO","msg":"stream: starting","core version":"0.25.0"}
+{"time":"2026-03-06T21:28:38.850587731+05:30","level":"INFO","msg":"stream: created new stream","id":"ld04wmhq"}
+{"time":"2026-03-06T21:28:38.850840889+05:30","level":"INFO","msg":"handler: started","stream_id":"ld04wmhq"}
+{"time":"2026-03-06T21:28:38.851480549+05:30","level":"INFO","msg":"stream: started","id":"ld04wmhq"}
+{"time":"2026-03-06T21:28:38.851675608+05:30","level":"INFO","msg":"writer: started","stream_id":"ld04wmhq"}
+{"time":"2026-03-06T21:28:38.851697948+05:30","level":"INFO","msg":"sender: started","stream_id":"ld04wmhq"}
+{"time":"2026-03-06T21:29:13.681385972+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-03-06T21:29:14.196985261+05:30","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2026-03-06T21:29:14.203229023+05:30","level":"INFO","msg":"stream: closing","id":"ld04wmhq"}
+{"time":"2026-03-06T21:29:14.203283962+05:30","level":"INFO","msg":"handler: closed","stream_id":"ld04wmhq"}
+{"time":"2026-03-06T21:29:14.203397229+05:30","level":"INFO","msg":"sender: closed","stream_id":"ld04wmhq"}
+{"time":"2026-03-06T21:29:14.20341244+05:30","level":"INFO","msg":"stream: closed","id":"ld04wmhq"}

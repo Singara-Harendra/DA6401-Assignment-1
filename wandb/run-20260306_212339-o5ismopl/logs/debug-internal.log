@@ -1,0 +1,12 @@
+{"time":"2026-03-06T21:23:39.345898541+05:30","level":"INFO","msg":"stream: starting","core version":"0.25.0"}
+{"time":"2026-03-06T21:23:40.072556116+05:30","level":"INFO","msg":"stream: created new stream","id":"o5ismopl"}
+{"time":"2026-03-06T21:23:40.072774853+05:30","level":"INFO","msg":"handler: started","stream_id":"o5ismopl"}
+{"time":"2026-03-06T21:23:40.072961848+05:30","level":"INFO","msg":"stream: started","id":"o5ismopl"}
+{"time":"2026-03-06T21:23:40.072986603+05:30","level":"INFO","msg":"writer: started","stream_id":"o5ismopl"}
+{"time":"2026-03-06T21:23:40.073028596+05:30","level":"INFO","msg":"sender: started","stream_id":"o5ismopl"}
+{"time":"2026-03-06T21:24:19.114447239+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-03-06T21:24:19.582445395+05:30","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2026-03-06T21:24:19.59176143+05:30","level":"INFO","msg":"stream: closing","id":"o5ismopl"}
+{"time":"2026-03-06T21:24:19.591786048+05:30","level":"INFO","msg":"handler: closed","stream_id":"o5ismopl"}
+{"time":"2026-03-06T21:24:19.591909395+05:30","level":"INFO","msg":"sender: closed","stream_id":"o5ismopl"}
+{"time":"2026-03-06T21:24:19.591926583+05:30","level":"INFO","msg":"stream: closed","id":"o5ismopl"}

@@ -29,6 +29,7 @@ def parse_arguments():
     parser.add_argument("-wi",  "--weight_init",    type=str,   default="xavier",         help="xavier, random, zeros")
     parser.add_argument("--wandb_project",          type=str,   default="da6401-mlp",     help="W&B project name")
     parser.add_argument("--wandb_entity",           type=str,   default=None,             help="W&B username")
+    parser.add_argument("--run_name",               type=str,   default=None,             help="Custom W&B run name")
     parser.add_argument("--model_save_path",        type=str,   default="best_model.npy", help="Path to save weights")
     parser.add_argument("--no_wandb",               action="store_true",                  help="Disable W&B logging")
 
@@ -50,6 +51,7 @@ def main():
         wandb.init(
             project=args.wandb_project,
             entity=args.wandb_entity,
+            name=args.run_name,
             config=vars(args),
         )
         # allow sweep to override args
@@ -94,12 +96,10 @@ def main():
         prev_best_f1 = 0.0
 
     if test_f1 > prev_best_f1:
-        # save weights
         np.save("best_model.npy", best_weights)
         print(f"\nNew best model saved → best_model.npy")
         print(f"  F1 improved: {prev_best_f1:.4f} → {test_f1:.4f}")
 
-        # save config with metrics recorded inside
         config_to_save = vars(args).copy()
         config_to_save["test_accuracy"] = round(float(test_acc), 6)
         config_to_save["test_f1"]       = round(float(test_f1), 6)

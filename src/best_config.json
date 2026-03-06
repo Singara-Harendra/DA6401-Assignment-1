@@ -5,17 +5,18 @@
   "loss": "cross_entropy",
   "optimizer": "rmsprop",
   "learning_rate": 0.01,
-  "weight_decay": 0.0,
+  "weight_decay": 0,
   "num_layers": 3,
   "hidden_size": [
     128
   ],
-  "activation": "relu",
+  "activation": "sigmoid",
   "weight_init": "xavier",
   "wandb_project": "da6401-mlp",
   "wandb_entity": null,
+  "run_name": "vanishing-rmsprop-sigmoid-3layer",
   "model_save_path": "best_model.npy",
-  "no_wandb": true,
-  "test_accuracy": 0.961,
-  "test_f1": 0.960791
+  "no_wandb": false,
+  "test_accuracy": 0.9735,
+  "test_f1": 0.973132
 }

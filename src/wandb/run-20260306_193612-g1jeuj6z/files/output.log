@@ -1,0 +1,27 @@
+Downloading data from https://storage.googleapis.com/tensorflow/tf-keras-datasets/train-labels-idx1-ubyte.gz
+[1m29515/29515[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 3us/step
+Downloading data from https://storage.googleapis.com/tensorflow/tf-keras-datasets/train-images-idx3-ubyte.gz
+[1m26421880/26421880[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m9s[0m 0us/step
+Downloading data from https://storage.googleapis.com/tensorflow/tf-keras-datasets/t10k-labels-idx1-ubyte.gz
+[1m5148/5148[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 0us/step
+Downloading data from https://storage.googleapis.com/tensorflow/tf-keras-datasets/t10k-images-idx3-ubyte.gz
+[1m4422102/4422102[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m2s[0m 0us/step
+Loaded fashion_mnist: train=54000  val=6000  test=10000
+Epoch 1/15  loss=1.7311  train_acc=0.6595  val_acc=0.6612
+Epoch 2/15  loss=0.9952  train_acc=0.7222  val_acc=0.7242
+Epoch 3/15  loss=0.7915  train_acc=0.7531  val_acc=0.7543
+Epoch 4/15  loss=0.7044  train_acc=0.7733  val_acc=0.7713
+Epoch 5/15  loss=0.6509  train_acc=0.7838  val_acc=0.7852
+Epoch 6/15  loss=0.6131  train_acc=0.7943  val_acc=0.7903
+Epoch 7/15  loss=0.5852  train_acc=0.8030  val_acc=0.7993
+Epoch 8/15  loss=0.5625  train_acc=0.8115  val_acc=0.8125
+Epoch 9/15  loss=0.5453  train_acc=0.8163  val_acc=0.8135
+Epoch 10/15  loss=0.5300  train_acc=0.8203  val_acc=0.8163
+Epoch 11/15  loss=0.5177  train_acc=0.8215  val_acc=0.8192
+Epoch 12/15  loss=0.5070  train_acc=0.8281  val_acc=0.8248
+Epoch 13/15  loss=0.4980  train_acc=0.8296  val_acc=0.8268
+Epoch 14/15  loss=0.4899  train_acc=0.8310  val_acc=0.8235
+Epoch 15/15  loss=0.4822  train_acc=0.8343  val_acc=0.8275
+
+Test Accuracy : 0.8190
+Test F1 Score : 0.8181

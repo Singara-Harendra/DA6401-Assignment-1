@@ -1,0 +1,12 @@
+{"time":"2026-03-06T19:51:29.417819922+05:30","level":"INFO","msg":"stream: starting","core version":"0.25.0"}
+{"time":"2026-03-06T19:51:29.937422295+05:30","level":"INFO","msg":"stream: created new stream","id":"waflertt"}
+{"time":"2026-03-06T19:51:29.937558618+05:30","level":"INFO","msg":"handler: started","stream_id":"waflertt"}
+{"time":"2026-03-06T19:51:29.937737089+05:30","level":"INFO","msg":"stream: started","id":"waflertt"}
+{"time":"2026-03-06T19:51:29.937810512+05:30","level":"INFO","msg":"writer: started","stream_id":"waflertt"}
+{"time":"2026-03-06T19:51:29.937843125+05:30","level":"INFO","msg":"sender: started","stream_id":"waflertt"}
+{"time":"2026-03-06T19:51:57.327699157+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-03-06T19:51:57.948804015+05:30","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2026-03-06T19:51:57.983876921+05:30","level":"INFO","msg":"stream: closing","id":"waflertt"}
+{"time":"2026-03-06T19:51:57.983901035+05:30","level":"INFO","msg":"handler: closed","stream_id":"waflertt"}
+{"time":"2026-03-06T19:51:57.984027829+05:30","level":"INFO","msg":"sender: closed","stream_id":"waflertt"}
+{"time":"2026-03-06T19:51:57.984039641+05:30","level":"INFO","msg":"stream: closed","id":"waflertt"}

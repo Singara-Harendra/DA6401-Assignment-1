@@ -1,0 +1,12 @@
+{"time":"2026-03-06T20:47:08.240623757+05:30","level":"INFO","msg":"stream: starting","core version":"0.25.0"}
+{"time":"2026-03-06T20:47:09.01194003+05:30","level":"INFO","msg":"stream: created new stream","id":"madim9ka"}
+{"time":"2026-03-06T20:47:09.012156673+05:30","level":"INFO","msg":"handler: started","stream_id":"madim9ka"}
+{"time":"2026-03-06T20:47:09.012515515+05:30","level":"INFO","msg":"stream: started","id":"madim9ka"}
+{"time":"2026-03-06T20:47:09.01268187+05:30","level":"INFO","msg":"writer: started","stream_id":"madim9ka"}
+{"time":"2026-03-06T20:47:09.012735239+05:30","level":"INFO","msg":"sender: started","stream_id":"madim9ka"}
+{"time":"2026-03-06T20:48:10.152619201+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-03-06T20:48:10.767873815+05:30","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2026-03-06T20:48:10.771247419+05:30","level":"INFO","msg":"stream: closing","id":"madim9ka"}
+{"time":"2026-03-06T20:48:10.771257153+05:30","level":"INFO","msg":"handler: closed","stream_id":"madim9ka"}
+{"time":"2026-03-06T20:48:10.771316381+05:30","level":"INFO","msg":"sender: closed","stream_id":"madim9ka"}
+{"time":"2026-03-06T20:48:10.771324132+05:30","level":"INFO","msg":"stream: closed","id":"madim9ka"}

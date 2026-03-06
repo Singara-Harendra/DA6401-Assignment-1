@@ -1,0 +1,99 @@
+_wandb:
+    value:
+        cli_version: 0.25.0
+        e:
+            mih3hpp2tik22vb4lfx584kulcdjpb6m:
+                args:
+                    - --activation=relu
+                    - --batch_size=64
+                    - --dataset=mnist
+                    - --epochs=10
+                    - --hidden_size=128
+                    - --learning_rate=0.01
+                    - --loss=cross_entropy
+                    - --num_layers=3
+                    - --optimizer=rmsprop
+                    - --weight_decay=0.0005
+                    - --weight_init=xavier
+                codePath: src/train.py
+                codePathLocal: src/train.py
+                cpu_count: 12
+                cpu_count_logical: 16
+                cudaVersion: "13.1"
+                disk:
+                    /:
+                        total: "52525297664"
+                        used: "21636042752"
+                email: da25m028@smail.iitm.ac.in
+                executable: /home/harendra/Desktop/DL assignment 1/da6401_assignment_1/venv/bin/python
+                git:
+                    commit: c59c9e42634fabb60a51a4edb443fb44d233782f
+                    remote: https://github.com/Singara-Harendra/DA6401-Assignment-1
+                gpu: NVIDIA GeForce GTX 1650
+                gpu_count: 1
+                gpu_nvidia:
+                    - architecture: Turing
+                      cudaCores: 896
+                      memoryTotal: "4294967296"
+                      name: NVIDIA GeForce GTX 1650
+                      uuid: GPU-62da593c-d767-9c08-740b-24f5035554e2
+                host: harendra-Aspire-A715-51G
+                memory:
+                    total: "8014782464"
+                os: Linux-6.8.0-101-generic-x86_64-with-glibc2.35
+                program: /home/harendra/Desktop/DL assignment 1/da6401_assignment_1/src/train.py
+                python: CPython 3.10.12
+                root: /home/harendra/Desktop/DL assignment 1/da6401_assignment_1
+                startedAt: "2026-03-06T16:18:17.253403Z"
+                writerId: mih3hpp2tik22vb4lfx584kulcdjpb6m
+        m: []
+        python_version: 3.10.12
+        t:
+            "1":
+                - 5
+                - 53
+            "2":
+                - 2
+                - 3
+                - 5
+                - 53
+            "3":
+                - 2
+                - 14
+                - 16
+            "4": 3.10.12
+            "5": 0.25.0
+            "12": 0.25.0
+            "13": linux-x86_64
+activation:
+    value: relu
+batch_size:
+    value: 64
+dataset:
+    value: mnist
+epochs:
+    value: 10
+hidden_size:
+    value: 128
+learning_rate:
+    value: 0.01
+loss:
+    value: cross_entropy
+model_save_path:
+    value: best_model.npy
+no_wandb:
+    value: false
+num_layers:
+    value: 3
+optimizer:
+    value: rmsprop
+run_name:
+    value: null
+wandb_entity:
+    value: null
+wandb_project:
+    value: da6401-mlp
+weight_decay:
+    value: 0.0005
+weight_init:
+    value: xavier

@@ -1,0 +1,12 @@
+{"time":"2026-03-06T20:11:37.50561512+05:30","level":"INFO","msg":"stream: starting","core version":"0.25.0"}
+{"time":"2026-03-06T20:11:38.261877844+05:30","level":"INFO","msg":"stream: created new stream","id":"nozmera9"}
+{"time":"2026-03-06T20:11:38.262060174+05:30","level":"INFO","msg":"handler: started","stream_id":"nozmera9"}
+{"time":"2026-03-06T20:11:38.262453392+05:30","level":"INFO","msg":"stream: started","id":"nozmera9"}
+{"time":"2026-03-06T20:11:38.262494653+05:30","level":"INFO","msg":"sender: started","stream_id":"nozmera9"}
+{"time":"2026-03-06T20:11:38.262527045+05:30","level":"INFO","msg":"writer: started","stream_id":"nozmera9"}
+{"time":"2026-03-06T20:12:24.620663277+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-03-06T20:12:25.168039203+05:30","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2026-03-06T20:12:25.171578273+05:30","level":"INFO","msg":"stream: closing","id":"nozmera9"}
+{"time":"2026-03-06T20:12:25.171588207+05:30","level":"INFO","msg":"handler: closed","stream_id":"nozmera9"}
+{"time":"2026-03-06T20:12:25.171655312+05:30","level":"INFO","msg":"sender: closed","stream_id":"nozmera9"}
+{"time":"2026-03-06T20:12:25.171663649+05:30","level":"INFO","msg":"stream: closed","id":"nozmera9"}

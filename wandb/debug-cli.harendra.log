@@ -1,0 +1,2016 @@
+2026-03-06 19:48:54 INFO Running runs: []
+2026-03-06 19:48:56 INFO Agent received command: run
+2026-03-06 19:48:56 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 32
+	dataset: mnist
+	epochs: 10
+	hidden_size: 128
+	learning_rate: 0.05
+	loss: cross_entropy
+	num_layers: 2
+	optimizer: nag
+	weight_decay: 0.0005
+	weight_init: random
+2026-03-06 19:48:56 INFO About to run command: /usr/bin/env python src/train.py --activation=tanh --batch_size=32 --dataset=mnist --epochs=10 --hidden_size=128 --learning_rate=0.05 --loss=cross_entropy --num_layers=2 --optimizer=nag --weight_decay=0.0005 --weight_init=random
+2026-03-06 19:49:01 INFO Running runs: ['2aeyejiw']
+2026-03-06 19:50:08 INFO Cleaning up finished run: 2aeyejiw
+2026-03-06 19:50:11 INFO Agent received command: run
+2026-03-06 19:50:11 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 128
+	dataset: mnist
+	epochs: 10
+	hidden_size: 128
+	learning_rate: 0.05
+	loss: cross_entropy
+	num_layers: 2
+	optimizer: sgd
+	weight_decay: 0
+	weight_init: xavier
+2026-03-06 19:50:11 INFO About to run command: /usr/bin/env python src/train.py --activation=relu --batch_size=128 --dataset=mnist --epochs=10 --hidden_size=128 --learning_rate=0.05 --loss=cross_entropy --num_layers=2 --optimizer=sgd --weight_decay=0 --weight_init=xavier
+2026-03-06 19:50:16 INFO Running runs: ['pr46neoo']
+2026-03-06 19:50:38 INFO Cleaning up finished run: pr46neoo
+2026-03-06 19:50:40 INFO Agent received command: run
+2026-03-06 19:50:40 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 64
+	dataset: mnist
+	epochs: 10
+	hidden_size: 128
+	learning_rate: 0.001
+	loss: cross_entropy
+	num_layers: 4
+	optimizer: momentum
+	weight_decay: 0
+	weight_init: random
+2026-03-06 19:50:40 INFO About to run command: /usr/bin/env python src/train.py --activation=relu --batch_size=64 --dataset=mnist --epochs=10 --hidden_size=128 --learning_rate=0.001 --loss=cross_entropy --num_layers=4 --optimizer=momentum --weight_decay=0 --weight_init=random
+2026-03-06 19:50:45 INFO Running runs: ['y34vhdq1']
+2026-03-06 19:51:24 INFO Cleaning up finished run: y34vhdq1
+2026-03-06 19:51:27 INFO Agent received command: run
+2026-03-06 19:51:27 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 128
+	dataset: mnist
+	epochs: 10
+	hidden_size: 64
+	learning_rate: 0.001
+	loss: cross_entropy
+	num_layers: 2
+	optimizer: rmsprop
+	weight_decay: 0.0005
+	weight_init: random
+2026-03-06 19:51:27 INFO About to run command: /usr/bin/env python src/train.py --activation=sigmoid --batch_size=128 --dataset=mnist --epochs=10 --hidden_size=64 --learning_rate=0.001 --loss=cross_entropy --num_layers=2 --optimizer=rmsprop --weight_decay=0.0005 --weight_init=random
+2026-03-06 19:51:32 INFO Running runs: ['waflertt']
+2026-03-06 19:51:59 INFO Cleaning up finished run: waflertt
+2026-03-06 19:52:01 INFO Agent received command: run
+2026-03-06 19:52:01 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 64
+	dataset: mnist
+	epochs: 10
+	hidden_size: 128
+	learning_rate: 0.01
+	loss: cross_entropy
+	num_layers: 2
+	optimizer: momentum
+	weight_decay: 0.0005
+	weight_init: xavier
+2026-03-06 19:52:01 INFO About to run command: /usr/bin/env python src/train.py --activation=tanh --batch_size=64 --dataset=mnist --epochs=10 --hidden_size=128 --learning_rate=0.01 --loss=cross_entropy --num_layers=2 --optimizer=momentum --weight_decay=0.0005 --weight_init=xavier
+2026-03-06 19:52:06 INFO Running runs: ['qwj65s6y']
+2026-03-06 19:53:13 INFO Cleaning up finished run: qwj65s6y
+2026-03-06 19:53:17 INFO Agent received command: run
+2026-03-06 19:53:17 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 64
+	dataset: mnist
+	epochs: 10
+	hidden_size: 128
+	learning_rate: 0.01
+	loss: cross_entropy
+	num_layers: 2
+	optimizer: nag
+	weight_decay: 0.0005
+	weight_init: random
+2026-03-06 19:53:17 INFO About to run command: /usr/bin/env python src/train.py --activation=tanh --batch_size=64 --dataset=mnist --epochs=10 --hidden_size=128 --learning_rate=0.01 --loss=cross_entropy --num_layers=2 --optimizer=nag --weight_decay=0.0005 --weight_init=random
+2026-03-06 19:53:22 INFO Running runs: ['4myovaon']
+2026-03-06 19:54:31 INFO Cleaning up finished run: 4myovaon
+2026-03-06 19:54:33 INFO Agent received command: run
+2026-03-06 19:54:33 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 32
+	dataset: mnist
+	epochs: 10
+	hidden_size: 64
+	learning_rate: 0.05
+	loss: cross_entropy
+	num_layers: 2
+	optimizer: rmsprop
+	weight_decay: 0.0005
+	weight_init: xavier
+2026-03-06 19:54:33 INFO About to run command: /usr/bin/env python src/train.py --activation=sigmoid --batch_size=32 --dataset=mnist --epochs=10 --hidden_size=64 --learning_rate=0.05 --loss=cross_entropy --num_layers=2 --optimizer=rmsprop --weight_decay=0.0005 --weight_init=xavier
+2026-03-06 19:54:38 INFO Running runs: ['4p5vcyzb']
+2026-03-06 19:55:11 INFO Cleaning up finished run: 4p5vcyzb
+2026-03-06 19:55:14 INFO Agent received command: run
+2026-03-06 19:55:14 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 64
+	dataset: mnist
+	epochs: 10
+	hidden_size: 128
+	learning_rate: 0.005
+	loss: cross_entropy
+	num_layers: 2
+	optimizer: nag
+	weight_decay: 0
+	weight_init: random
+2026-03-06 19:55:14 INFO About to run command: /usr/bin/env python src/train.py --activation=tanh --batch_size=64 --dataset=mnist --epochs=10 --hidden_size=128 --learning_rate=0.005 --loss=cross_entropy --num_layers=2 --optimizer=nag --weight_decay=0 --weight_init=random
+2026-03-06 19:55:19 INFO Running runs: ['n0ffstfr']
+2026-03-06 19:56:15 INFO Cleaning up finished run: n0ffstfr
+2026-03-06 19:56:17 INFO Agent received command: run
+2026-03-06 19:56:17 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 128
+	dataset: mnist
+	epochs: 10
+	hidden_size: 64
+	learning_rate: 0.001
+	loss: cross_entropy
+	num_layers: 2
+	optimizer: sgd
+	weight_decay: 0.0005
+	weight_init: xavier
+2026-03-06 19:56:17 INFO About to run command: /usr/bin/env python src/train.py --activation=tanh --batch_size=128 --dataset=mnist --epochs=10 --hidden_size=64 --learning_rate=0.001 --loss=cross_entropy --num_layers=2 --optimizer=sgd --weight_decay=0.0005 --weight_init=xavier
+2026-03-06 19:56:22 INFO Running runs: ['7hmz6kc1']
+2026-03-06 19:56:44 INFO Cleaning up finished run: 7hmz6kc1
+2026-03-06 19:56:46 INFO Agent received command: run
+2026-03-06 19:56:46 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 32
+	dataset: mnist
+	epochs: 10
+	hidden_size: 64
+	learning_rate: 0.001
+	loss: cross_entropy
+	num_layers: 2
+	optimizer: momentum
+	weight_decay: 0.0005
+	weight_init: xavier
+2026-03-06 19:56:46 INFO About to run command: /usr/bin/env python src/train.py --activation=sigmoid --batch_size=32 --dataset=mnist --epochs=10 --hidden_size=64 --learning_rate=0.001 --loss=cross_entropy --num_layers=2 --optimizer=momentum --weight_decay=0.0005 --weight_init=xavier
+2026-03-06 19:56:51 INFO Running runs: ['6kd88y66']
+2026-03-06 19:57:18 INFO Cleaning up finished run: 6kd88y66
+2026-03-06 19:57:21 INFO Agent received command: run
+2026-03-06 19:57:21 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 128
+	dataset: mnist
+	epochs: 10
+	hidden_size: 64
+	learning_rate: 0.001
+	loss: cross_entropy
+	num_layers: 2
+	optimizer: nag
+	weight_decay: 0.0005
+	weight_init: xavier
+2026-03-06 19:57:21 INFO About to run command: /usr/bin/env python src/train.py --activation=tanh --batch_size=128 --dataset=mnist --epochs=10 --hidden_size=64 --learning_rate=0.001 --loss=cross_entropy --num_layers=2 --optimizer=nag --weight_decay=0.0005 --weight_init=xavier
+2026-03-06 19:57:26 INFO Running runs: ['r1eb7yun']
+2026-03-06 19:57:48 INFO Cleaning up finished run: r1eb7yun
+2026-03-06 19:57:50 INFO Agent received command: run
+2026-03-06 19:57:50 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 64
+	dataset: mnist
+	epochs: 10
+	hidden_size: 64
+	learning_rate: 0.05
+	loss: cross_entropy
+	num_layers: 4
+	optimizer: nag
+	weight_decay: 0.0005
+	weight_init: xavier
+2026-03-06 19:57:50 INFO About to run command: /usr/bin/env python src/train.py --activation=relu --batch_size=64 --dataset=mnist --epochs=10 --hidden_size=64 --learning_rate=0.05 --loss=cross_entropy --num_layers=4 --optimizer=nag --weight_decay=0.0005 --weight_init=xavier
+2026-03-06 19:57:55 INFO Running runs: ['5x7r7dox']
+2026-03-06 19:58:23 INFO Cleaning up finished run: 5x7r7dox
+2026-03-06 19:58:25 INFO Agent received command: run
+2026-03-06 19:58:25 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 64
+	dataset: mnist
+	epochs: 10
+	hidden_size: 128
+	learning_rate: 0.05
+	loss: cross_entropy
+	num_layers: 3
+	optimizer: rmsprop
+	weight_decay: 0.0005
+	weight_init: random
+2026-03-06 19:58:25 INFO About to run command: /usr/bin/env python src/train.py --activation=tanh --batch_size=64 --dataset=mnist --epochs=10 --hidden_size=128 --learning_rate=0.05 --loss=cross_entropy --num_layers=3 --optimizer=rmsprop --weight_decay=0.0005 --weight_init=random
+2026-03-06 19:58:30 INFO Running runs: ['s45dqyg4']
+2026-03-06 19:59:24 INFO Cleaning up finished run: s45dqyg4
+2026-03-06 19:59:26 INFO Agent received command: run
+2026-03-06 19:59:26 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 64
+	dataset: mnist
+	epochs: 10
+	hidden_size: 128
+	learning_rate: 0.001
+	loss: cross_entropy
+	num_layers: 3
+	optimizer: sgd
+	weight_decay: 0.0005
+	weight_init: random
+2026-03-06 19:59:26 INFO About to run command: /usr/bin/env python src/train.py --activation=relu --batch_size=64 --dataset=mnist --epochs=10 --hidden_size=128 --learning_rate=0.001 --loss=cross_entropy --num_layers=3 --optimizer=sgd --weight_decay=0.0005 --weight_init=random
+2026-03-06 19:59:31 INFO Running runs: ['xbqs7dcq']
+2026-03-06 20:00:15 INFO Cleaning up finished run: xbqs7dcq
+2026-03-06 20:00:18 INFO Agent received command: run
+2026-03-06 20:00:18 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 64
+	dataset: mnist
+	epochs: 10
+	hidden_size: 128
+	learning_rate: 0.01
+	loss: cross_entropy
+	num_layers: 2
+	optimizer: sgd
+	weight_decay: 0.0005
+	weight_init: random
+2026-03-06 20:00:18 INFO About to run command: /usr/bin/env python src/train.py --activation=tanh --batch_size=64 --dataset=mnist --epochs=10 --hidden_size=128 --learning_rate=0.01 --loss=cross_entropy --num_layers=2 --optimizer=sgd --weight_decay=0.0005 --weight_init=random
+2026-03-06 20:00:23 INFO Running runs: ['zsuczh27']
+2026-03-06 20:01:16 INFO Cleaning up finished run: zsuczh27
+2026-03-06 20:01:21 INFO Agent received command: run
+2026-03-06 20:01:21 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 128
+	dataset: mnist
+	epochs: 10
+	hidden_size: 128
+	learning_rate: 0.001
+	loss: cross_entropy
+	num_layers: 3
+	optimizer: nag
+	weight_decay: 0
+	weight_init: xavier
+2026-03-06 20:01:21 INFO About to run command: /usr/bin/env python src/train.py --activation=tanh --batch_size=128 --dataset=mnist --epochs=10 --hidden_size=128 --learning_rate=0.001 --loss=cross_entropy --num_layers=3 --optimizer=nag --weight_decay=0 --weight_init=xavier
+2026-03-06 20:01:26 INFO Running runs: ['qyjd5i37']
+2026-03-06 20:05:26 INFO Running runs: []
+2026-03-06 20:05:27 INFO Agent received command: run
+2026-03-06 20:05:27 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 64
+	dataset: mnist
+	epochs: 10
+	hidden_size: 128
+	learning_rate: 0.05
+	loss: cross_entropy
+	num_layers: 2
+	optimizer: rmsprop
+	weight_decay: 0
+	weight_init: xavier
+2026-03-06 20:05:27 INFO About to run command: /usr/bin/env python src/train.py --activation=sigmoid --batch_size=64 --dataset=mnist --epochs=10 --hidden_size=128 --learning_rate=0.05 --loss=cross_entropy --num_layers=2 --optimizer=rmsprop --weight_decay=0 --weight_init=xavier
+2026-03-06 20:05:32 INFO Running runs: ['fzktfwxc']
+2026-03-06 20:06:28 INFO Cleaning up finished run: fzktfwxc
+2026-03-06 20:06:30 INFO Agent received command: run
+2026-03-06 20:06:30 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 64
+	dataset: mnist
+	epochs: 10
+	hidden_size: 64
+	learning_rate: 0.005
+	loss: cross_entropy
+	num_layers: 2
+	optimizer: momentum
+	weight_decay: 0.0005
+	weight_init: random
+2026-03-06 20:06:30 INFO About to run command: /usr/bin/env python src/train.py --activation=sigmoid --batch_size=64 --dataset=mnist --epochs=10 --hidden_size=64 --learning_rate=0.005 --loss=cross_entropy --num_layers=2 --optimizer=momentum --weight_decay=0.0005 --weight_init=random
+2026-03-06 20:06:35 INFO Running runs: ['l3mg3l8o']
+2026-03-06 20:07:03 INFO Cleaning up finished run: l3mg3l8o
+2026-03-06 20:07:07 INFO Agent received command: run
+2026-03-06 20:07:07 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 128
+	dataset: mnist
+	epochs: 10
+	hidden_size: 64
+	learning_rate: 0.001
+	loss: cross_entropy
+	num_layers: 4
+	optimizer: momentum
+	weight_decay: 0
+	weight_init: random
+2026-03-06 20:07:07 INFO About to run command: /usr/bin/env python src/train.py --activation=tanh --batch_size=128 --dataset=mnist --epochs=10 --hidden_size=64 --learning_rate=0.001 --loss=cross_entropy --num_layers=4 --optimizer=momentum --weight_decay=0 --weight_init=random
+2026-03-06 20:07:12 INFO Running runs: ['bp7io0lo']
+2026-03-06 20:08:07 INFO Cleaning up finished run: bp7io0lo
+2026-03-06 20:08:12 INFO Agent received command: run
+2026-03-06 20:08:12 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 128
+	dataset: mnist
+	epochs: 10
+	hidden_size: 128
+	learning_rate: 0.05
+	loss: cross_entropy
+	num_layers: 3
+	optimizer: rmsprop
+	weight_decay: 0
+	weight_init: xavier
+2026-03-06 20:08:12 INFO About to run command: /usr/bin/env python src/train.py --activation=sigmoid --batch_size=128 --dataset=mnist --epochs=10 --hidden_size=128 --learning_rate=0.05 --loss=cross_entropy --num_layers=3 --optimizer=rmsprop --weight_decay=0 --weight_init=xavier
+2026-03-06 20:08:17 INFO Running runs: ['rmgk44z4']
+2026-03-06 20:09:15 INFO Cleaning up finished run: rmgk44z4
+2026-03-06 20:09:20 INFO Agent received command: run
+2026-03-06 20:09:20 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 64
+	dataset: mnist
+	epochs: 10
+	hidden_size: 64
+	learning_rate: 0.01
+	loss: cross_entropy
+	num_layers: 4
+	optimizer: nag
+	weight_decay: 0
+	weight_init: random
+2026-03-06 20:09:20 INFO About to run command: /usr/bin/env python src/train.py --activation=relu --batch_size=64 --dataset=mnist --epochs=10 --hidden_size=64 --learning_rate=0.01 --loss=cross_entropy --num_layers=4 --optimizer=nag --weight_decay=0 --weight_init=random
+2026-03-06 20:09:25 INFO Running runs: ['jk3zt8bo']
+2026-03-06 20:10:04 INFO Cleaning up finished run: jk3zt8bo
+2026-03-06 20:10:06 INFO Agent received command: run
+2026-03-06 20:10:06 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 32
+	dataset: mnist
+	epochs: 10
+	hidden_size: 128
+	learning_rate: 0.01
+	loss: cross_entropy
+	num_layers: 3
+	optimizer: nag
+	weight_decay: 0
+	weight_init: xavier
+2026-03-06 20:10:06 INFO About to run command: /usr/bin/env python src/train.py --activation=relu --batch_size=32 --dataset=mnist --epochs=10 --hidden_size=128 --learning_rate=0.01 --loss=cross_entropy --num_layers=3 --optimizer=nag --weight_decay=0 --weight_init=xavier
+2026-03-06 20:10:11 INFO Running runs: ['5idd893s']
+2026-03-06 20:11:33 INFO Cleaning up finished run: 5idd893s
+2026-03-06 20:11:35 INFO Agent received command: run
+2026-03-06 20:11:35 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 128
+	dataset: mnist
+	epochs: 10
+	hidden_size: 128
+	learning_rate: 0.005
+	loss: cross_entropy
+	num_layers: 4
+	optimizer: rmsprop
+	weight_decay: 0
+	weight_init: random
+2026-03-06 20:11:35 INFO About to run command: /usr/bin/env python src/train.py --activation=tanh --batch_size=128 --dataset=mnist --epochs=10 --hidden_size=128 --learning_rate=0.005 --loss=cross_entropy --num_layers=4 --optimizer=rmsprop --weight_decay=0 --weight_init=random
+2026-03-06 20:11:40 INFO Running runs: ['nozmera9']
+2026-03-06 20:12:29 INFO Cleaning up finished run: nozmera9
+2026-03-06 20:12:32 INFO Agent received command: run
+2026-03-06 20:12:32 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 128
+	dataset: mnist
+	epochs: 10
+	hidden_size: 128
+	learning_rate: 0.001
+	loss: cross_entropy
+	num_layers: 3
+	optimizer: rmsprop
+	weight_decay: 0
+	weight_init: random
+2026-03-06 20:12:32 INFO About to run command: /usr/bin/env python src/train.py --activation=sigmoid --batch_size=128 --dataset=mnist --epochs=10 --hidden_size=128 --learning_rate=0.001 --loss=cross_entropy --num_layers=3 --optimizer=rmsprop --weight_decay=0 --weight_init=random
+2026-03-06 20:12:37 INFO Running runs: ['2v0nqz9q']
+2026-03-06 20:13:15 INFO Cleaning up finished run: 2v0nqz9q
+2026-03-06 20:13:18 INFO Agent received command: run
+2026-03-06 20:13:18 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 32
+	dataset: mnist
+	epochs: 10
+	hidden_size: 64
+	learning_rate: 0.05
+	loss: cross_entropy
+	num_layers: 2
+	optimizer: nag
+	weight_decay: 0.0005
+	weight_init: xavier
+2026-03-06 20:13:18 INFO About to run command: /usr/bin/env python src/train.py --activation=relu --batch_size=32 --dataset=mnist --epochs=10 --hidden_size=64 --learning_rate=0.05 --loss=cross_entropy --num_layers=2 --optimizer=nag --weight_decay=0.0005 --weight_init=xavier
+2026-03-06 20:13:23 INFO Running runs: ['nbdxzsnd']
+2026-03-06 20:13:50 INFO Cleaning up finished run: nbdxzsnd
+2026-03-06 20:13:52 INFO Agent received command: run
+2026-03-06 20:13:52 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 128
+	dataset: mnist
+	epochs: 10
+	hidden_size: 64
+	learning_rate: 0.01
+	loss: cross_entropy
+	num_layers: 4
+	optimizer: rmsprop
+	weight_decay: 0
+	weight_init: random
+2026-03-06 20:13:52 INFO About to run command: /usr/bin/env python src/train.py --activation=sigmoid --batch_size=128 --dataset=mnist --epochs=10 --hidden_size=64 --learning_rate=0.01 --loss=cross_entropy --num_layers=4 --optimizer=rmsprop --weight_decay=0 --weight_init=random
+2026-03-06 20:13:57 INFO Running runs: ['cf1c3h83']
+2026-03-06 20:14:24 INFO Cleaning up finished run: cf1c3h83
+2026-03-06 20:14:25 INFO Agent received command: run
+2026-03-06 20:14:25 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 32
+	dataset: mnist
+	epochs: 10
+	hidden_size: 128
+	learning_rate: 0.01
+	loss: cross_entropy
+	num_layers: 4
+	optimizer: nag
+	weight_decay: 0.0005
+	weight_init: random
+2026-03-06 20:14:25 INFO About to run command: /usr/bin/env python src/train.py --activation=tanh --batch_size=32 --dataset=mnist --epochs=10 --hidden_size=128 --learning_rate=0.01 --loss=cross_entropy --num_layers=4 --optimizer=nag --weight_decay=0.0005 --weight_init=random
+2026-03-06 20:14:30 INFO Running runs: ['n6xmsg3v']
+2026-03-06 20:16:01 INFO Cleaning up finished run: n6xmsg3v
+2026-03-06 20:16:04 INFO Agent received command: run
+2026-03-06 20:16:04 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 64
+	dataset: mnist
+	epochs: 10
+	hidden_size: 128
+	learning_rate: 0.005
+	loss: cross_entropy
+	num_layers: 3
+	optimizer: nag
+	weight_decay: 0.0005
+	weight_init: xavier
+2026-03-06 20:16:04 INFO About to run command: /usr/bin/env python src/train.py --activation=sigmoid --batch_size=64 --dataset=mnist --epochs=10 --hidden_size=128 --learning_rate=0.005 --loss=cross_entropy --num_layers=3 --optimizer=nag --weight_decay=0.0005 --weight_init=xavier
+2026-03-06 20:16:09 INFO Running runs: ['alu1b8d7']
+2026-03-06 20:17:16 INFO Cleaning up finished run: alu1b8d7
+2026-03-06 20:17:18 INFO Agent received command: run
+2026-03-06 20:17:18 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 128
+	dataset: mnist
+	epochs: 10
+	hidden_size: 128
+	learning_rate: 0.001
+	loss: cross_entropy
+	num_layers: 4
+	optimizer: rmsprop
+	weight_decay: 0.0005
+	weight_init: xavier
+2026-03-06 20:17:18 INFO About to run command: /usr/bin/env python src/train.py --activation=relu --batch_size=128 --dataset=mnist --epochs=10 --hidden_size=128 --learning_rate=0.001 --loss=cross_entropy --num_layers=4 --optimizer=rmsprop --weight_decay=0.0005 --weight_init=xavier
+2026-03-06 20:17:23 INFO Running runs: ['agyuxvfk']
+2026-03-06 20:18:12 INFO Cleaning up finished run: agyuxvfk
+2026-03-06 20:18:13 INFO Agent received command: run
+2026-03-06 20:18:13 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 128
+	dataset: mnist
+	epochs: 10
+	hidden_size: 64
+	learning_rate: 0.05
+	loss: cross_entropy
+	num_layers: 2
+	optimizer: momentum
+	weight_decay: 0.0005
+	weight_init: xavier
+2026-03-06 20:18:13 INFO About to run command: /usr/bin/env python src/train.py --activation=relu --batch_size=128 --dataset=mnist --epochs=10 --hidden_size=64 --learning_rate=0.05 --loss=cross_entropy --num_layers=2 --optimizer=momentum --weight_decay=0.0005 --weight_init=xavier
+2026-03-06 20:18:18 INFO Running runs: ['yfvtxb2z']
+2026-03-06 20:18:40 INFO Cleaning up finished run: yfvtxb2z
+2026-03-06 20:18:43 INFO Agent received command: run
+2026-03-06 20:18:43 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 128
+	dataset: mnist
+	epochs: 10
+	hidden_size: 64
+	learning_rate: 0.001
+	loss: cross_entropy
+	num_layers: 4
+	optimizer: momentum
+	weight_decay: 0.0005
+	weight_init: random
+2026-03-06 20:18:43 INFO About to run command: /usr/bin/env python src/train.py --activation=sigmoid --batch_size=128 --dataset=mnist --epochs=10 --hidden_size=64 --learning_rate=0.001 --loss=cross_entropy --num_layers=4 --optimizer=momentum --weight_decay=0.0005 --weight_init=random
+2026-03-06 20:18:48 INFO Running runs: ['1egyt86q']
+2026-03-06 20:19:16 INFO Cleaning up finished run: 1egyt86q
+2026-03-06 20:19:22 INFO Agent received command: run
+2026-03-06 20:19:22 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 128
+	dataset: mnist
+	epochs: 10
+	hidden_size: 64
+	learning_rate: 0.005
+	loss: cross_entropy
+	num_layers: 2
+	optimizer: momentum
+	weight_decay: 0.0005
+	weight_init: xavier
+2026-03-06 20:19:22 INFO About to run command: /usr/bin/env python src/train.py --activation=sigmoid --batch_size=128 --dataset=mnist --epochs=10 --hidden_size=64 --learning_rate=0.005 --loss=cross_entropy --num_layers=2 --optimizer=momentum --weight_decay=0.0005 --weight_init=xavier
+2026-03-06 20:19:27 INFO Running runs: ['hahaw0ih']
+2026-03-06 20:19:49 INFO Cleaning up finished run: hahaw0ih
+2026-03-06 20:19:51 INFO Agent received command: run
+2026-03-06 20:19:51 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 32
+	dataset: mnist
+	epochs: 10
+	hidden_size: 64
+	learning_rate: 0.001
+	loss: cross_entropy
+	num_layers: 2
+	optimizer: momentum
+	weight_decay: 0.0005
+	weight_init: xavier
+2026-03-06 20:19:51 INFO About to run command: /usr/bin/env python src/train.py --activation=tanh --batch_size=32 --dataset=mnist --epochs=10 --hidden_size=64 --learning_rate=0.001 --loss=cross_entropy --num_layers=2 --optimizer=momentum --weight_decay=0.0005 --weight_init=xavier
+2026-03-06 20:19:56 INFO Running runs: ['al6wzjzy']
+2026-03-06 20:20:18 INFO Cleaning up finished run: al6wzjzy
+2026-03-06 20:20:20 INFO Agent received command: run
+2026-03-06 20:20:20 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 128
+	dataset: mnist
+	epochs: 10
+	hidden_size: 128
+	learning_rate: 0.005
+	loss: cross_entropy
+	num_layers: 3
+	optimizer: momentum
+	weight_decay: 0
+	weight_init: random
+2026-03-06 20:20:20 INFO About to run command: /usr/bin/env python src/train.py --activation=relu --batch_size=128 --dataset=mnist --epochs=10 --hidden_size=128 --learning_rate=0.005 --loss=cross_entropy --num_layers=3 --optimizer=momentum --weight_decay=0 --weight_init=random
+2026-03-06 20:20:25 INFO Running runs: ['yqgaiqkz']
+2026-03-06 20:20:58 INFO Cleaning up finished run: yqgaiqkz
+2026-03-06 20:21:00 INFO Agent received command: run
+2026-03-06 20:21:00 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 128
+	dataset: mnist
+	epochs: 10
+	hidden_size: 64
+	learning_rate: 0.05
+	loss: cross_entropy
+	num_layers: 4
+	optimizer: rmsprop
+	weight_decay: 0.0005
+	weight_init: xavier
+2026-03-06 20:21:00 INFO About to run command: /usr/bin/env python src/train.py --activation=relu --batch_size=128 --dataset=mnist --epochs=10 --hidden_size=64 --learning_rate=0.05 --loss=cross_entropy --num_layers=4 --optimizer=rmsprop --weight_decay=0.0005 --weight_init=xavier
+2026-03-06 20:21:05 INFO Running runs: ['zzgwx19i']
+2026-03-06 20:21:32 INFO Cleaning up finished run: zzgwx19i
+2026-03-06 20:21:35 INFO Agent received command: run
+2026-03-06 20:21:35 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 32
+	dataset: mnist
+	epochs: 10
+	hidden_size: 128
+	learning_rate: 0.01
+	loss: cross_entropy
+	num_layers: 4
+	optimizer: nag
+	weight_decay: 0
+	weight_init: random
+2026-03-06 20:21:35 INFO About to run command: /usr/bin/env python src/train.py --activation=tanh --batch_size=32 --dataset=mnist --epochs=10 --hidden_size=128 --learning_rate=0.01 --loss=cross_entropy --num_layers=4 --optimizer=nag --weight_decay=0 --weight_init=random
+2026-03-06 20:21:40 INFO Running runs: ['vsm3u6x9']
+2026-03-06 20:23:14 INFO Cleaning up finished run: vsm3u6x9
+2026-03-06 20:23:19 INFO Agent received command: run
+2026-03-06 20:23:19 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 128
+	dataset: mnist
+	epochs: 10
+	hidden_size: 128
+	learning_rate: 0.05
+	loss: cross_entropy
+	num_layers: 3
+	optimizer: rmsprop
+	weight_decay: 0.0005
+	weight_init: random
+2026-03-06 20:23:19 INFO About to run command: /usr/bin/env python src/train.py --activation=tanh --batch_size=128 --dataset=mnist --epochs=10 --hidden_size=128 --learning_rate=0.05 --loss=cross_entropy --num_layers=3 --optimizer=rmsprop --weight_decay=0.0005 --weight_init=random
+2026-03-06 20:23:24 INFO Running runs: ['knae8qcm']
+2026-03-06 20:24:02 INFO Cleaning up finished run: knae8qcm
+2026-03-06 20:24:05 INFO Agent received command: run
+2026-03-06 20:24:05 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 32
+	dataset: mnist
+	epochs: 10
+	hidden_size: 64
+	learning_rate: 0.001
+	loss: cross_entropy
+	num_layers: 3
+	optimizer: sgd
+	weight_decay: 0
+	weight_init: xavier
+2026-03-06 20:24:05 INFO About to run command: /usr/bin/env python src/train.py --activation=sigmoid --batch_size=32 --dataset=mnist --epochs=10 --hidden_size=64 --learning_rate=0.001 --loss=cross_entropy --num_layers=3 --optimizer=sgd --weight_decay=0 --weight_init=xavier
+2026-03-06 20:24:10 INFO Running runs: ['f5ay6xh1']
+2026-03-06 20:24:37 INFO Cleaning up finished run: f5ay6xh1
+2026-03-06 20:24:39 INFO Agent received command: run
+2026-03-06 20:24:39 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 128
+	dataset: mnist
+	epochs: 10
+	hidden_size: 64
+	learning_rate: 0.001
+	loss: cross_entropy
+	num_layers: 4
+	optimizer: sgd
+	weight_decay: 0.0005
+	weight_init: xavier
+2026-03-06 20:24:39 INFO About to run command: /usr/bin/env python src/train.py --activation=sigmoid --batch_size=128 --dataset=mnist --epochs=10 --hidden_size=64 --learning_rate=0.001 --loss=cross_entropy --num_layers=4 --optimizer=sgd --weight_decay=0.0005 --weight_init=xavier
+2026-03-06 20:24:44 INFO Running runs: ['bnmynyjj']
+2026-03-06 20:25:12 INFO Cleaning up finished run: bnmynyjj
+2026-03-06 20:25:15 INFO Agent received command: run
+2026-03-06 20:25:15 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 64
+	dataset: mnist
+	epochs: 10
+	hidden_size: 128
+	learning_rate: 0.01
+	loss: cross_entropy
+	num_layers: 4
+	optimizer: nag
+	weight_decay: 0
+	weight_init: xavier
+2026-03-06 20:25:15 INFO About to run command: /usr/bin/env python src/train.py --activation=sigmoid --batch_size=64 --dataset=mnist --epochs=10 --hidden_size=128 --learning_rate=0.01 --loss=cross_entropy --num_layers=4 --optimizer=nag --weight_decay=0 --weight_init=xavier
+2026-03-06 20:25:20 INFO Running runs: ['q4ced5ty']
+2026-03-06 20:26:31 INFO Cleaning up finished run: q4ced5ty
+2026-03-06 20:26:33 INFO Agent received command: run
+2026-03-06 20:26:33 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 32
+	dataset: mnist
+	epochs: 10
+	hidden_size: 64
+	learning_rate: 0.05
+	loss: cross_entropy
+	num_layers: 2
+	optimizer: rmsprop
+	weight_decay: 0.0005
+	weight_init: random
+2026-03-06 20:26:33 INFO About to run command: /usr/bin/env python src/train.py --activation=sigmoid --batch_size=32 --dataset=mnist --epochs=10 --hidden_size=64 --learning_rate=0.05 --loss=cross_entropy --num_layers=2 --optimizer=rmsprop --weight_decay=0.0005 --weight_init=random
+2026-03-06 20:26:38 INFO Running runs: ['w9i02tda']
+2026-03-06 20:27:05 INFO Cleaning up finished run: w9i02tda
+2026-03-06 20:27:08 INFO Agent received command: run
+2026-03-06 20:27:08 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 64
+	dataset: mnist
+	epochs: 10
+	hidden_size: 128
+	learning_rate: 0.01
+	loss: cross_entropy
+	num_layers: 3
+	optimizer: rmsprop
+	weight_decay: 0
+	weight_init: xavier
+2026-03-06 20:27:08 INFO About to run command: /usr/bin/env python src/train.py --activation=relu --batch_size=64 --dataset=mnist --epochs=10 --hidden_size=128 --learning_rate=0.01 --loss=cross_entropy --num_layers=3 --optimizer=rmsprop --weight_decay=0 --weight_init=xavier
+2026-03-06 20:27:13 INFO Running runs: ['ykigah48']
+2026-03-06 20:28:26 INFO Cleaning up finished run: ykigah48
+2026-03-06 20:28:27 INFO Agent received command: run
+2026-03-06 20:28:27 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 64
+	dataset: mnist
+	epochs: 10
+	hidden_size: 64
+	learning_rate: 0.05
+	loss: cross_entropy
+	num_layers: 2
+	optimizer: rmsprop
+	weight_decay: 0.0005
+	weight_init: xavier
+2026-03-06 20:28:27 INFO About to run command: /usr/bin/env python src/train.py --activation=relu --batch_size=64 --dataset=mnist --epochs=10 --hidden_size=64 --learning_rate=0.05 --loss=cross_entropy --num_layers=2 --optimizer=rmsprop --weight_decay=0.0005 --weight_init=xavier
+2026-03-06 20:28:32 INFO Running runs: ['7x57flxb']
+2026-03-06 20:29:01 INFO Cleaning up finished run: 7x57flxb
+2026-03-06 20:29:04 INFO Agent received command: run
+2026-03-06 20:29:04 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 128
+	dataset: mnist
+	epochs: 10
+	hidden_size: 128
+	learning_rate: 0.01
+	loss: cross_entropy
+	num_layers: 4
+	optimizer: rmsprop
+	weight_decay: 0.0005
+	weight_init: random
+2026-03-06 20:29:04 INFO About to run command: /usr/bin/env python src/train.py --activation=sigmoid --batch_size=128 --dataset=mnist --epochs=10 --hidden_size=128 --learning_rate=0.01 --loss=cross_entropy --num_layers=4 --optimizer=rmsprop --weight_decay=0.0005 --weight_init=random
+2026-03-06 20:29:09 INFO Running runs: ['2px9gftt']
+2026-03-06 20:29:52 INFO Cleaning up finished run: 2px9gftt
+2026-03-06 20:29:54 INFO Agent received command: run
+2026-03-06 20:29:54 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 64
+	dataset: mnist
+	epochs: 10
+	hidden_size: 128
+	learning_rate: 0.01
+	loss: cross_entropy
+	num_layers: 4
+	optimizer: rmsprop
+	weight_decay: 0.0005
+	weight_init: random
+2026-03-06 20:29:54 INFO About to run command: /usr/bin/env python src/train.py --activation=relu --batch_size=64 --dataset=mnist --epochs=10 --hidden_size=128 --learning_rate=0.01 --loss=cross_entropy --num_layers=4 --optimizer=rmsprop --weight_decay=0.0005 --weight_init=random
+2026-03-06 20:29:59 INFO Running runs: ['v2ezif66']
+2026-03-06 20:30:55 INFO Cleaning up finished run: v2ezif66
+2026-03-06 20:30:57 INFO Agent received command: run
+2026-03-06 20:30:57 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 64
+	dataset: mnist
+	epochs: 10
+	hidden_size: 128
+	learning_rate: 0.01
+	loss: cross_entropy
+	num_layers: 3
+	optimizer: rmsprop
+	weight_decay: 0
+	weight_init: xavier
+2026-03-06 20:30:57 INFO About to run command: /usr/bin/env python src/train.py --activation=relu --batch_size=64 --dataset=mnist --epochs=10 --hidden_size=128 --learning_rate=0.01 --loss=cross_entropy --num_layers=3 --optimizer=rmsprop --weight_decay=0 --weight_init=xavier
+2026-03-06 20:31:02 INFO Running runs: ['5ya7556t']
+2026-03-06 20:32:09 INFO Cleaning up finished run: 5ya7556t
+2026-03-06 20:32:12 INFO Agent received command: run
+2026-03-06 20:32:12 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 64
+	dataset: mnist
+	epochs: 10
+	hidden_size: 128
+	learning_rate: 0.05
+	loss: cross_entropy
+	num_layers: 3
+	optimizer: nag
+	weight_decay: 0.0005
+	weight_init: xavier
+2026-03-06 20:32:12 INFO About to run command: /usr/bin/env python src/train.py --activation=sigmoid --batch_size=64 --dataset=mnist --epochs=10 --hidden_size=128 --learning_rate=0.05 --loss=cross_entropy --num_layers=3 --optimizer=nag --weight_decay=0.0005 --weight_init=xavier
+2026-03-06 20:32:17 INFO Running runs: ['3fer56bd']
+2026-03-06 20:33:22 INFO Cleaning up finished run: 3fer56bd
+2026-03-06 20:33:24 INFO Agent received command: run
+2026-03-06 20:33:24 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 32
+	dataset: mnist
+	epochs: 10
+	hidden_size: 128
+	learning_rate: 0.05
+	loss: cross_entropy
+	num_layers: 4
+	optimizer: nag
+	weight_decay: 0.0005
+	weight_init: random
+2026-03-06 20:33:24 INFO About to run command: /usr/bin/env python src/train.py --activation=sigmoid --batch_size=32 --dataset=mnist --epochs=10 --hidden_size=128 --learning_rate=0.05 --loss=cross_entropy --num_layers=4 --optimizer=nag --weight_decay=0.0005 --weight_init=random
+2026-03-06 20:33:29 INFO Running runs: ['csde2k5w']
+2026-03-06 20:35:13 INFO Cleaning up finished run: csde2k5w
+2026-03-06 20:35:15 INFO Agent received command: run
+2026-03-06 20:35:15 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 64
+	dataset: mnist
+	epochs: 10
+	hidden_size: 128
+	learning_rate: 0.05
+	loss: cross_entropy
+	num_layers: 3
+	optimizer: rmsprop
+	weight_decay: 0
+	weight_init: xavier
+2026-03-06 20:35:15 INFO About to run command: /usr/bin/env python src/train.py --activation=sigmoid --batch_size=64 --dataset=mnist --epochs=10 --hidden_size=128 --learning_rate=0.05 --loss=cross_entropy --num_layers=3 --optimizer=rmsprop --weight_decay=0 --weight_init=xavier
+2026-03-06 20:35:20 INFO Running runs: ['21ewc4lf']
+2026-03-06 20:36:20 INFO Cleaning up finished run: 21ewc4lf
+2026-03-06 20:36:22 INFO Agent received command: run
+2026-03-06 20:36:22 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 32
+	dataset: mnist
+	epochs: 10
+	hidden_size: 128
+	learning_rate: 0.01
+	loss: cross_entropy
+	num_layers: 3
+	optimizer: rmsprop
+	weight_decay: 0
+	weight_init: xavier
+2026-03-06 20:36:22 INFO About to run command: /usr/bin/env python src/train.py --activation=relu --batch_size=32 --dataset=mnist --epochs=10 --hidden_size=128 --learning_rate=0.01 --loss=cross_entropy --num_layers=3 --optimizer=rmsprop --weight_decay=0 --weight_init=xavier
+2026-03-06 20:36:27 INFO Running runs: ['y5kg9hrm']
+2026-03-06 20:39:20 INFO Cleaning up finished run: y5kg9hrm
+2026-03-06 20:39:22 INFO Agent received command: run
+2026-03-06 20:39:22 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 64
+	dataset: mnist
+	epochs: 10
+	hidden_size: 128
+	learning_rate: 0.01
+	loss: cross_entropy
+	num_layers: 3
+	optimizer: rmsprop
+	weight_decay: 0.0005
+	weight_init: xavier
+2026-03-06 20:39:22 INFO About to run command: /usr/bin/env python src/train.py --activation=sigmoid --batch_size=64 --dataset=mnist --epochs=10 --hidden_size=128 --learning_rate=0.01 --loss=cross_entropy --num_layers=3 --optimizer=rmsprop --weight_decay=0.0005 --weight_init=xavier
+2026-03-06 20:39:27 INFO Running runs: ['sx93paje']
+2026-03-06 20:40:43 INFO Cleaning up finished run: sx93paje
+2026-03-06 20:40:58 INFO Agent received command: run
+2026-03-06 20:40:58 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 64
+	dataset: mnist
+	epochs: 10
+	hidden_size: 128
+	learning_rate: 0.01
+	loss: cross_entropy
+	num_layers: 4
+	optimizer: rmsprop
+	weight_decay: 0.0005
+	weight_init: xavier
+2026-03-06 20:40:58 INFO About to run command: /usr/bin/env python src/train.py --activation=relu --batch_size=64 --dataset=mnist --epochs=10 --hidden_size=128 --learning_rate=0.01 --loss=cross_entropy --num_layers=4 --optimizer=rmsprop --weight_decay=0.0005 --weight_init=xavier
+2026-03-06 20:41:03 INFO Running runs: ['s4inmy8t']
+2026-03-06 20:41:41 INFO Cleaning up finished run: s4inmy8t
+2026-03-06 20:41:44 INFO Agent received command: run
+2026-03-06 20:41:44 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 64
+	dataset: mnist
+	epochs: 10
+	hidden_size: 128
+	learning_rate: 0.01
+	loss: cross_entropy
+	num_layers: 4
+	optimizer: nag
+	weight_decay: 0
+	weight_init: random
+2026-03-06 20:41:44 INFO About to run command: /usr/bin/env python src/train.py --activation=sigmoid --batch_size=64 --dataset=mnist --epochs=10 --hidden_size=128 --learning_rate=0.01 --loss=cross_entropy --num_layers=4 --optimizer=nag --weight_decay=0 --weight_init=random
+2026-03-06 20:41:49 INFO Running runs: ['5j5tmrvg']
+2026-03-06 20:42:45 INFO Cleaning up finished run: 5j5tmrvg
+2026-03-06 20:42:47 INFO Agent received command: run
+2026-03-06 20:42:47 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 32
+	dataset: mnist
+	epochs: 10
+	hidden_size: 128
+	learning_rate: 0.05
+	loss: cross_entropy
+	num_layers: 3
+	optimizer: rmsprop
+	weight_decay: 0.0005
+	weight_init: random
+2026-03-06 20:42:47 INFO About to run command: /usr/bin/env python src/train.py --activation=relu --batch_size=32 --dataset=mnist --epochs=10 --hidden_size=128 --learning_rate=0.05 --loss=cross_entropy --num_layers=3 --optimizer=rmsprop --weight_decay=0.0005 --weight_init=random
+2026-03-06 20:42:52 INFO Running runs: ['mluqfo5t']
+2026-03-06 20:43:58 INFO Cleaning up finished run: mluqfo5t
+2026-03-06 20:44:00 INFO Agent received command: run
+2026-03-06 20:44:00 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 64
+	dataset: mnist
+	epochs: 10
+	hidden_size: 128
+	learning_rate: 0.05
+	loss: cross_entropy
+	num_layers: 3
+	optimizer: rmsprop
+	weight_decay: 0.0005
+	weight_init: random
+2026-03-06 20:44:00 INFO About to run command: /usr/bin/env python src/train.py --activation=sigmoid --batch_size=64 --dataset=mnist --epochs=10 --hidden_size=128 --learning_rate=0.05 --loss=cross_entropy --num_layers=3 --optimizer=rmsprop --weight_decay=0.0005 --weight_init=random
+2026-03-06 20:44:05 INFO Running runs: ['v6qydvpb']
+2026-03-06 20:45:06 INFO Cleaning up finished run: v6qydvpb
+2026-03-06 20:45:11 INFO Agent received command: run
+2026-03-06 20:45:11 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 64
+	dataset: mnist
+	epochs: 10
+	hidden_size: 128
+	learning_rate: 0.01
+	loss: cross_entropy
+	num_layers: 2
+	optimizer: rmsprop
+	weight_decay: 0
+	weight_init: xavier
+2026-03-06 20:45:11 INFO About to run command: /usr/bin/env python src/train.py --activation=sigmoid --batch_size=64 --dataset=mnist --epochs=10 --hidden_size=128 --learning_rate=0.01 --loss=cross_entropy --num_layers=2 --optimizer=rmsprop --weight_decay=0 --weight_init=xavier
+2026-03-06 20:45:16 INFO Running runs: ['hs31p0uu']
+2026-03-06 20:46:00 INFO Cleaning up finished run: hs31p0uu
+2026-03-06 20:46:02 INFO Agent received command: run
+2026-03-06 20:46:02 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 32
+	dataset: mnist
+	epochs: 10
+	hidden_size: 128
+	learning_rate: 0.05
+	loss: cross_entropy
+	num_layers: 2
+	optimizer: nag
+	weight_decay: 0.0005
+	weight_init: random
+2026-03-06 20:46:02 INFO About to run command: /usr/bin/env python src/train.py --activation=relu --batch_size=32 --dataset=mnist --epochs=10 --hidden_size=128 --learning_rate=0.05 --loss=cross_entropy --num_layers=2 --optimizer=nag --weight_decay=0.0005 --weight_init=random
+2026-03-06 20:46:07 INFO Running runs: ['iacfyn8j']
+2026-03-06 20:47:02 INFO Cleaning up finished run: iacfyn8j
+2026-03-06 20:47:06 INFO Agent received command: run
+2026-03-06 20:47:06 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 32
+	dataset: mnist
+	epochs: 10
+	hidden_size: 128
+	learning_rate: 0.05
+	loss: cross_entropy
+	num_layers: 2
+	optimizer: nag
+	weight_decay: 0.0005
+	weight_init: xavier
+2026-03-06 20:47:06 INFO About to run command: /usr/bin/env python src/train.py --activation=relu --batch_size=32 --dataset=mnist --epochs=10 --hidden_size=128 --learning_rate=0.05 --loss=cross_entropy --num_layers=2 --optimizer=nag --weight_decay=0.0005 --weight_init=xavier
+2026-03-06 20:47:11 INFO Running runs: ['madim9ka']
+2026-03-06 20:48:11 INFO Cleaning up finished run: madim9ka
+2026-03-06 20:48:13 INFO Agent received command: run
+2026-03-06 20:48:13 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 32
+	dataset: mnist
+	epochs: 10
+	hidden_size: 128
+	learning_rate: 0.05
+	loss: cross_entropy
+	num_layers: 2
+	optimizer: nag
+	weight_decay: 0.0005
+	weight_init: random
+2026-03-06 20:48:13 INFO About to run command: /usr/bin/env python src/train.py --activation=relu --batch_size=32 --dataset=mnist --epochs=10 --hidden_size=128 --learning_rate=0.05 --loss=cross_entropy --num_layers=2 --optimizer=nag --weight_decay=0.0005 --weight_init=random
+2026-03-06 20:48:18 INFO Running runs: ['wz8f8lqi']
+2026-03-06 20:49:41 INFO Cleaning up finished run: wz8f8lqi
+2026-03-06 20:49:43 INFO Agent received command: run
+2026-03-06 20:49:43 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 32
+	dataset: mnist
+	epochs: 10
+	hidden_size: 128
+	learning_rate: 0.05
+	loss: cross_entropy
+	num_layers: 3
+	optimizer: nag
+	weight_decay: 0.0005
+	weight_init: random
+2026-03-06 20:49:43 INFO About to run command: /usr/bin/env python src/train.py --activation=relu --batch_size=32 --dataset=mnist --epochs=10 --hidden_size=128 --learning_rate=0.05 --loss=cross_entropy --num_layers=3 --optimizer=nag --weight_decay=0.0005 --weight_init=random
+2026-03-06 20:49:48 INFO Running runs: ['zfuf8vef']
+2026-03-06 20:51:08 INFO Cleaning up finished run: zfuf8vef
+2026-03-06 20:51:13 INFO Agent received command: run
+2026-03-06 20:51:13 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 64
+	dataset: mnist
+	epochs: 10
+	hidden_size: 128
+	learning_rate: 0.05
+	loss: cross_entropy
+	num_layers: 2
+	optimizer: rmsprop
+	weight_decay: 0.0005
+	weight_init: random
+2026-03-06 20:51:13 INFO About to run command: /usr/bin/env python src/train.py --activation=relu --batch_size=64 --dataset=mnist --epochs=10 --hidden_size=128 --learning_rate=0.05 --loss=cross_entropy --num_layers=2 --optimizer=rmsprop --weight_decay=0.0005 --weight_init=random
+2026-03-06 20:51:18 INFO Running runs: ['2j78or4z']
+2026-03-06 20:52:08 INFO Cleaning up finished run: 2j78or4z
+2026-03-06 20:52:12 INFO Agent received command: run
+2026-03-06 20:52:12 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 64
+	dataset: mnist
+	epochs: 10
+	hidden_size: 128
+	learning_rate: 0.01
+	loss: cross_entropy
+	num_layers: 3
+	optimizer: rmsprop
+	weight_decay: 0
+	weight_init: xavier
+2026-03-06 20:52:12 INFO About to run command: /usr/bin/env python src/train.py --activation=relu --batch_size=64 --dataset=mnist --epochs=10 --hidden_size=128 --learning_rate=0.01 --loss=cross_entropy --num_layers=3 --optimizer=rmsprop --weight_decay=0 --weight_init=xavier
+2026-03-06 20:52:17 INFO Running runs: ['pqdqu29h']
+2026-03-06 20:53:12 INFO Cleaning up finished run: pqdqu29h
+2026-03-06 20:53:15 INFO Agent received command: run
+2026-03-06 20:53:15 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 32
+	dataset: mnist
+	epochs: 10
+	hidden_size: 128
+	learning_rate: 0.05
+	loss: cross_entropy
+	num_layers: 2
+	optimizer: momentum
+	weight_decay: 0.0005
+	weight_init: random
+2026-03-06 20:53:15 INFO About to run command: /usr/bin/env python src/train.py --activation=sigmoid --batch_size=32 --dataset=mnist --epochs=10 --hidden_size=128 --learning_rate=0.05 --loss=cross_entropy --num_layers=2 --optimizer=momentum --weight_decay=0.0005 --weight_init=random
+2026-03-06 20:53:20 INFO Running runs: ['du4frnun']
+2026-03-06 20:53:58 INFO Cleaning up finished run: du4frnun
+2026-03-06 20:53:59 INFO Agent received command: run
+2026-03-06 20:53:59 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 64
+	dataset: mnist
+	epochs: 10
+	hidden_size: 128
+	learning_rate: 0.05
+	loss: cross_entropy
+	num_layers: 2
+	optimizer: nag
+	weight_decay: 0.0005
+	weight_init: xavier
+2026-03-06 20:53:59 INFO About to run command: /usr/bin/env python src/train.py --activation=relu --batch_size=64 --dataset=mnist --epochs=10 --hidden_size=128 --learning_rate=0.05 --loss=cross_entropy --num_layers=2 --optimizer=nag --weight_decay=0.0005 --weight_init=xavier
+2026-03-06 20:54:04 INFO Running runs: ['48hmkz0w']
+2026-03-06 20:54:49 INFO Cleaning up finished run: 48hmkz0w
+2026-03-06 20:54:51 INFO Agent received command: run
+2026-03-06 20:54:51 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 64
+	dataset: mnist
+	epochs: 10
+	hidden_size: 128
+	learning_rate: 0.05
+	loss: cross_entropy
+	num_layers: 3
+	optimizer: rmsprop
+	weight_decay: 0
+	weight_init: xavier
+2026-03-06 20:54:51 INFO About to run command: /usr/bin/env python src/train.py --activation=sigmoid --batch_size=64 --dataset=mnist --epochs=10 --hidden_size=128 --learning_rate=0.05 --loss=cross_entropy --num_layers=3 --optimizer=rmsprop --weight_decay=0 --weight_init=xavier
+2026-03-06 20:54:56 INFO Running runs: ['b1ceg2ak']
+2026-03-06 20:55:52 INFO Cleaning up finished run: b1ceg2ak
+2026-03-06 20:55:54 INFO Agent received command: run
+2026-03-06 20:55:54 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 64
+	dataset: mnist
+	epochs: 10
+	hidden_size: 128
+	learning_rate: 0.05
+	loss: cross_entropy
+	num_layers: 2
+	optimizer: nag
+	weight_decay: 0.0005
+	weight_init: xavier
+2026-03-06 20:55:54 INFO About to run command: /usr/bin/env python src/train.py --activation=relu --batch_size=64 --dataset=mnist --epochs=10 --hidden_size=128 --learning_rate=0.05 --loss=cross_entropy --num_layers=2 --optimizer=nag --weight_decay=0.0005 --weight_init=xavier
+2026-03-06 20:55:59 INFO Running runs: ['wewrgz97']
+2026-03-06 20:56:43 INFO Cleaning up finished run: wewrgz97
+2026-03-06 20:56:45 INFO Agent received command: run
+2026-03-06 20:56:45 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 64
+	dataset: mnist
+	epochs: 10
+	hidden_size: 128
+	learning_rate: 0.01
+	loss: cross_entropy
+	num_layers: 3
+	optimizer: rmsprop
+	weight_decay: 0
+	weight_init: xavier
+2026-03-06 20:56:45 INFO About to run command: /usr/bin/env python src/train.py --activation=relu --batch_size=64 --dataset=mnist --epochs=10 --hidden_size=128 --learning_rate=0.01 --loss=cross_entropy --num_layers=3 --optimizer=rmsprop --weight_decay=0 --weight_init=xavier
+2026-03-06 20:56:50 INFO Running runs: ['1qa97g9g']
+2026-03-06 20:57:46 INFO Cleaning up finished run: 1qa97g9g
+2026-03-06 20:57:49 INFO Agent received command: run
+2026-03-06 20:57:49 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 64
+	dataset: mnist
+	epochs: 10
+	hidden_size: 128
+	learning_rate: 0.01
+	loss: cross_entropy
+	num_layers: 2
+	optimizer: rmsprop
+	weight_decay: 0
+	weight_init: random
+2026-03-06 20:57:49 INFO About to run command: /usr/bin/env python src/train.py --activation=sigmoid --batch_size=64 --dataset=mnist --epochs=10 --hidden_size=128 --learning_rate=0.01 --loss=cross_entropy --num_layers=2 --optimizer=rmsprop --weight_decay=0 --weight_init=random
+2026-03-06 20:57:54 INFO Running runs: ['s2rhcgn3']
+2026-03-06 20:58:37 INFO Cleaning up finished run: s2rhcgn3
+2026-03-06 20:58:39 INFO Agent received command: run
+2026-03-06 20:58:39 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 32
+	dataset: mnist
+	epochs: 10
+	hidden_size: 128
+	learning_rate: 0.05
+	loss: cross_entropy
+	num_layers: 2
+	optimizer: nag
+	weight_decay: 0
+	weight_init: xavier
+2026-03-06 20:58:39 INFO About to run command: /usr/bin/env python src/train.py --activation=relu --batch_size=32 --dataset=mnist --epochs=10 --hidden_size=128 --learning_rate=0.05 --loss=cross_entropy --num_layers=2 --optimizer=nag --weight_decay=0 --weight_init=xavier
+2026-03-06 20:58:44 INFO Running runs: ['p8ih9boj']
+2026-03-06 20:59:39 INFO Cleaning up finished run: p8ih9boj
+2026-03-06 20:59:41 INFO Agent received command: run
+2026-03-06 20:59:41 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 64
+	dataset: mnist
+	epochs: 10
+	hidden_size: 128
+	learning_rate: 0.05
+	loss: cross_entropy
+	num_layers: 2
+	optimizer: nag
+	weight_decay: 0.0005
+	weight_init: xavier
+2026-03-06 20:59:41 INFO About to run command: /usr/bin/env python src/train.py --activation=relu --batch_size=64 --dataset=mnist --epochs=10 --hidden_size=128 --learning_rate=0.05 --loss=cross_entropy --num_layers=2 --optimizer=nag --weight_decay=0.0005 --weight_init=xavier
+2026-03-06 20:59:46 INFO Running runs: ['io3c6t20']
+2026-03-06 21:00:30 INFO Cleaning up finished run: io3c6t20
+2026-03-06 21:00:32 INFO Agent received command: run
+2026-03-06 21:00:32 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 64
+	dataset: mnist
+	epochs: 10
+	hidden_size: 128
+	learning_rate: 0.01
+	loss: cross_entropy
+	num_layers: 2
+	optimizer: rmsprop
+	weight_decay: 0
+	weight_init: random
+2026-03-06 21:00:32 INFO About to run command: /usr/bin/env python src/train.py --activation=sigmoid --batch_size=64 --dataset=mnist --epochs=10 --hidden_size=128 --learning_rate=0.01 --loss=cross_entropy --num_layers=2 --optimizer=rmsprop --weight_decay=0 --weight_init=random
+2026-03-06 21:00:37 INFO Running runs: ['qszdkuwz']
+2026-03-06 21:01:26 INFO Cleaning up finished run: qszdkuwz
+2026-03-06 21:01:32 INFO Agent received command: run
+2026-03-06 21:01:32 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 128
+	dataset: mnist
+	epochs: 10
+	hidden_size: 128
+	learning_rate: 0.05
+	loss: cross_entropy
+	num_layers: 2
+	optimizer: rmsprop
+	weight_decay: 0
+	weight_init: random
+2026-03-06 21:01:32 INFO About to run command: /usr/bin/env python src/train.py --activation=relu --batch_size=128 --dataset=mnist --epochs=10 --hidden_size=128 --learning_rate=0.05 --loss=cross_entropy --num_layers=2 --optimizer=rmsprop --weight_decay=0 --weight_init=random
+2026-03-06 21:01:37 INFO Running runs: ['4ssa9gwm']
+2026-03-06 21:02:10 INFO Cleaning up finished run: 4ssa9gwm
+2026-03-06 21:02:13 INFO Agent received command: run
+2026-03-06 21:02:13 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 64
+	dataset: mnist
+	epochs: 10
+	hidden_size: 128
+	learning_rate: 0.05
+	loss: cross_entropy
+	num_layers: 3
+	optimizer: rmsprop
+	weight_decay: 0.0005
+	weight_init: random
+2026-03-06 21:02:13 INFO About to run command: /usr/bin/env python src/train.py --activation=relu --batch_size=64 --dataset=mnist --epochs=10 --hidden_size=128 --learning_rate=0.05 --loss=cross_entropy --num_layers=3 --optimizer=rmsprop --weight_decay=0.0005 --weight_init=random
+2026-03-06 21:02:18 INFO Running runs: ['oxyek7kh']
+2026-03-06 21:03:07 INFO Cleaning up finished run: oxyek7kh
+2026-03-06 21:03:10 INFO Agent received command: run
+2026-03-06 21:03:10 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 64
+	dataset: mnist
+	epochs: 10
+	hidden_size: 128
+	learning_rate: 0.01
+	loss: cross_entropy
+	num_layers: 3
+	optimizer: rmsprop
+	weight_decay: 0
+	weight_init: xavier
+2026-03-06 21:03:10 INFO About to run command: /usr/bin/env python src/train.py --activation=sigmoid --batch_size=64 --dataset=mnist --epochs=10 --hidden_size=128 --learning_rate=0.01 --loss=cross_entropy --num_layers=3 --optimizer=rmsprop --weight_decay=0 --weight_init=xavier
+2026-03-06 21:03:15 INFO Running runs: ['zcswtp1q']
+2026-03-06 21:04:05 INFO Cleaning up finished run: zcswtp1q
+2026-03-06 21:04:08 INFO Agent received command: run
+2026-03-06 21:04:08 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 64
+	dataset: mnist
+	epochs: 10
+	hidden_size: 128
+	learning_rate: 0.05
+	loss: cross_entropy
+	num_layers: 2
+	optimizer: rmsprop
+	weight_decay: 0.0005
+	weight_init: random
+2026-03-06 21:04:08 INFO About to run command: /usr/bin/env python src/train.py --activation=relu --batch_size=64 --dataset=mnist --epochs=10 --hidden_size=128 --learning_rate=0.05 --loss=cross_entropy --num_layers=2 --optimizer=rmsprop --weight_decay=0.0005 --weight_init=random
+2026-03-06 21:04:13 INFO Running runs: ['23oux9ro']
+2026-03-06 21:04:51 INFO Cleaning up finished run: 23oux9ro
+2026-03-06 21:04:52 INFO Agent received command: run
+2026-03-06 21:04:52 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 64
+	dataset: mnist
+	epochs: 10
+	hidden_size: 128
+	learning_rate: 0.05
+	loss: cross_entropy
+	num_layers: 2
+	optimizer: rmsprop
+	weight_decay: 0
+	weight_init: random
+2026-03-06 21:04:52 INFO About to run command: /usr/bin/env python src/train.py --activation=sigmoid --batch_size=64 --dataset=mnist --epochs=10 --hidden_size=128 --learning_rate=0.05 --loss=cross_entropy --num_layers=2 --optimizer=rmsprop --weight_decay=0 --weight_init=random
+2026-03-06 21:04:57 INFO Running runs: ['z05nk4lj']
+2026-03-06 21:05:46 INFO Cleaning up finished run: z05nk4lj
+2026-03-06 21:05:48 INFO Agent received command: run
+2026-03-06 21:05:48 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 64
+	dataset: mnist
+	epochs: 10
+	hidden_size: 128
+	learning_rate: 0.05
+	loss: cross_entropy
+	num_layers: 2
+	optimizer: momentum
+	weight_decay: 0.0005
+	weight_init: random
+2026-03-06 21:05:48 INFO About to run command: /usr/bin/env python src/train.py --activation=relu --batch_size=64 --dataset=mnist --epochs=10 --hidden_size=128 --learning_rate=0.05 --loss=cross_entropy --num_layers=2 --optimizer=momentum --weight_decay=0.0005 --weight_init=random
+2026-03-06 21:05:53 INFO Running runs: ['aa01mpxa']
+2026-03-06 21:06:37 INFO Cleaning up finished run: aa01mpxa
+2026-03-06 21:06:39 INFO Agent received command: run
+2026-03-06 21:06:39 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 128
+	dataset: mnist
+	epochs: 10
+	hidden_size: 128
+	learning_rate: 0.05
+	loss: cross_entropy
+	num_layers: 2
+	optimizer: rmsprop
+	weight_decay: 0
+	weight_init: random
+2026-03-06 21:06:39 INFO About to run command: /usr/bin/env python src/train.py --activation=sigmoid --batch_size=128 --dataset=mnist --epochs=10 --hidden_size=128 --learning_rate=0.05 --loss=cross_entropy --num_layers=2 --optimizer=rmsprop --weight_decay=0 --weight_init=random
+2026-03-06 21:06:44 INFO Running runs: ['ehi5zgpr']
+2026-03-06 21:07:17 INFO Cleaning up finished run: ehi5zgpr
+2026-03-06 21:07:20 INFO Agent received command: run
+2026-03-06 21:07:20 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 64
+	dataset: mnist
+	epochs: 10
+	hidden_size: 128
+	learning_rate: 0.01
+	loss: cross_entropy
+	num_layers: 2
+	optimizer: nag
+	weight_decay: 0.0005
+	weight_init: xavier
+2026-03-06 21:07:20 INFO About to run command: /usr/bin/env python src/train.py --activation=relu --batch_size=64 --dataset=mnist --epochs=10 --hidden_size=128 --learning_rate=0.01 --loss=cross_entropy --num_layers=2 --optimizer=nag --weight_decay=0.0005 --weight_init=xavier
+2026-03-06 21:07:25 INFO Running runs: ['ms5z3541']
+2026-03-06 21:08:09 INFO Cleaning up finished run: ms5z3541
+2026-03-06 21:08:11 INFO Agent received command: run
+2026-03-06 21:08:11 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 64
+	dataset: mnist
+	epochs: 10
+	hidden_size: 128
+	learning_rate: 0.05
+	loss: cross_entropy
+	num_layers: 2
+	optimizer: nag
+	weight_decay: 0
+	weight_init: xavier
+2026-03-06 21:08:11 INFO About to run command: /usr/bin/env python src/train.py --activation=relu --batch_size=64 --dataset=mnist --epochs=10 --hidden_size=128 --learning_rate=0.05 --loss=cross_entropy --num_layers=2 --optimizer=nag --weight_decay=0 --weight_init=xavier
+2026-03-06 21:08:16 INFO Running runs: ['yygx9mr2']
+2026-03-06 21:09:04 INFO Cleaning up finished run: yygx9mr2
+2026-03-06 21:09:07 INFO Agent received command: run
+2026-03-06 21:09:07 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 128
+	dataset: mnist
+	epochs: 10
+	hidden_size: 128
+	learning_rate: 0.05
+	loss: cross_entropy
+	num_layers: 2
+	optimizer: rmsprop
+	weight_decay: 0
+	weight_init: random
+2026-03-06 21:09:07 INFO About to run command: /usr/bin/env python src/train.py --activation=sigmoid --batch_size=128 --dataset=mnist --epochs=10 --hidden_size=128 --learning_rate=0.05 --loss=cross_entropy --num_layers=2 --optimizer=rmsprop --weight_decay=0 --weight_init=random
+2026-03-06 21:09:12 INFO Running runs: ['ou6ghrf1']
+2026-03-06 21:09:45 INFO Cleaning up finished run: ou6ghrf1
+2026-03-06 21:09:46 INFO Agent received command: run
+2026-03-06 21:09:46 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 64
+	dataset: mnist
+	epochs: 10
+	hidden_size: 128
+	learning_rate: 0.05
+	loss: cross_entropy
+	num_layers: 2
+	optimizer: nag
+	weight_decay: 0.0005
+	weight_init: random
+2026-03-06 21:09:46 INFO About to run command: /usr/bin/env python src/train.py --activation=relu --batch_size=64 --dataset=mnist --epochs=10 --hidden_size=128 --learning_rate=0.05 --loss=cross_entropy --num_layers=2 --optimizer=nag --weight_decay=0.0005 --weight_init=random
+2026-03-06 21:09:51 INFO Running runs: ['msq4odkn']
+2026-03-06 21:10:57 INFO Cleaning up finished run: msq4odkn
+2026-03-06 21:10:59 INFO Agent received command: run
+2026-03-06 21:10:59 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 64
+	dataset: mnist
+	epochs: 10
+	hidden_size: 128
+	learning_rate: 0.05
+	loss: cross_entropy
+	num_layers: 3
+	optimizer: nag
+	weight_decay: 0
+	weight_init: xavier
+2026-03-06 21:10:59 INFO About to run command: /usr/bin/env python src/train.py --activation=relu --batch_size=64 --dataset=mnist --epochs=10 --hidden_size=128 --learning_rate=0.05 --loss=cross_entropy --num_layers=3 --optimizer=nag --weight_decay=0 --weight_init=xavier
+2026-03-06 21:11:04 INFO Running runs: ['r0yjm6p3']
+2026-03-06 21:11:48 INFO Cleaning up finished run: r0yjm6p3
+2026-03-06 21:11:50 INFO Agent received command: run
+2026-03-06 21:11:50 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 64
+	dataset: mnist
+	epochs: 10
+	hidden_size: 128
+	learning_rate: 0.01
+	loss: cross_entropy
+	num_layers: 2
+	optimizer: rmsprop
+	weight_decay: 0.0005
+	weight_init: xavier
+2026-03-06 21:11:50 INFO About to run command: /usr/bin/env python src/train.py --activation=relu --batch_size=64 --dataset=mnist --epochs=10 --hidden_size=128 --learning_rate=0.01 --loss=cross_entropy --num_layers=2 --optimizer=rmsprop --weight_decay=0.0005 --weight_init=xavier
+2026-03-06 21:11:55 INFO Running runs: ['fxlbh1gi']
+2026-03-06 21:12:38 INFO Cleaning up finished run: fxlbh1gi
+2026-03-06 21:12:40 INFO Agent received command: run
+2026-03-06 21:12:40 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 32
+	dataset: mnist
+	epochs: 10
+	hidden_size: 128
+	learning_rate: 0.05
+	loss: cross_entropy
+	num_layers: 3
+	optimizer: nag
+	weight_decay: 0.0005
+	weight_init: xavier
+2026-03-06 21:12:40 INFO About to run command: /usr/bin/env python src/train.py --activation=relu --batch_size=32 --dataset=mnist --epochs=10 --hidden_size=128 --learning_rate=0.05 --loss=cross_entropy --num_layers=3 --optimizer=nag --weight_decay=0.0005 --weight_init=xavier
+2026-03-06 21:12:45 INFO Running runs: ['pp26rmfe']
+2026-03-06 21:14:02 INFO Cleaning up finished run: pp26rmfe
+2026-03-06 21:14:05 INFO Agent received command: run
+2026-03-06 21:14:05 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 32
+	dataset: mnist
+	epochs: 10
+	hidden_size: 128
+	learning_rate: 0.01
+	loss: cross_entropy
+	num_layers: 3
+	optimizer: rmsprop
+	weight_decay: 0.0005
+	weight_init: xavier
+2026-03-06 21:14:05 INFO About to run command: /usr/bin/env python src/train.py --activation=relu --batch_size=32 --dataset=mnist --epochs=10 --hidden_size=128 --learning_rate=0.01 --loss=cross_entropy --num_layers=3 --optimizer=rmsprop --weight_decay=0.0005 --weight_init=xavier
+2026-03-06 21:14:10 INFO Running runs: ['fl0tmhm0']
+2026-03-06 21:15:27 INFO Cleaning up finished run: fl0tmhm0
+2026-03-06 21:15:29 INFO Agent received command: run
+2026-03-06 21:15:29 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 64
+	dataset: mnist
+	epochs: 10
+	hidden_size: 128
+	learning_rate: 0.01
+	loss: cross_entropy
+	num_layers: 2
+	optimizer: rmsprop
+	weight_decay: 0
+	weight_init: random
+2026-03-06 21:15:29 INFO About to run command: /usr/bin/env python src/train.py --activation=sigmoid --batch_size=64 --dataset=mnist --epochs=10 --hidden_size=128 --learning_rate=0.01 --loss=cross_entropy --num_layers=2 --optimizer=rmsprop --weight_decay=0 --weight_init=random
+2026-03-06 21:15:34 INFO Running runs: ['2ary9wk0']
+2026-03-06 21:16:18 INFO Cleaning up finished run: 2ary9wk0
+2026-03-06 21:16:20 INFO Agent received command: run
+2026-03-06 21:16:20 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 32
+	dataset: mnist
+	epochs: 10
+	hidden_size: 128
+	learning_rate: 0.05
+	loss: cross_entropy
+	num_layers: 3
+	optimizer: rmsprop
+	weight_decay: 0.0005
+	weight_init: xavier
+2026-03-06 21:16:20 INFO About to run command: /usr/bin/env python src/train.py --activation=relu --batch_size=32 --dataset=mnist --epochs=10 --hidden_size=128 --learning_rate=0.05 --loss=cross_entropy --num_layers=3 --optimizer=rmsprop --weight_decay=0.0005 --weight_init=xavier
+2026-03-06 21:16:25 INFO Running runs: ['bkkqj938']
+2026-03-06 21:17:35 INFO Cleaning up finished run: bkkqj938
+2026-03-06 21:17:37 INFO Agent received command: run
+2026-03-06 21:17:37 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 128
+	dataset: mnist
+	epochs: 10
+	hidden_size: 128
+	learning_rate: 0.05
+	loss: cross_entropy
+	num_layers: 2
+	optimizer: rmsprop
+	weight_decay: 0
+	weight_init: xavier
+2026-03-06 21:17:37 INFO About to run command: /usr/bin/env python src/train.py --activation=tanh --batch_size=128 --dataset=mnist --epochs=10 --hidden_size=128 --learning_rate=0.05 --loss=cross_entropy --num_layers=2 --optimizer=rmsprop --weight_decay=0 --weight_init=xavier
+2026-03-06 21:17:42 INFO Running runs: ['4ikch6ww']
+2026-03-06 21:18:20 INFO Cleaning up finished run: 4ikch6ww
+2026-03-06 21:18:22 INFO Agent received command: run
+2026-03-06 21:18:22 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 32
+	dataset: mnist
+	epochs: 10
+	hidden_size: 128
+	learning_rate: 0.01
+	loss: cross_entropy
+	num_layers: 3
+	optimizer: nag
+	weight_decay: 0.0005
+	weight_init: xavier
+2026-03-06 21:18:22 INFO About to run command: /usr/bin/env python src/train.py --activation=relu --batch_size=32 --dataset=mnist --epochs=10 --hidden_size=128 --learning_rate=0.01 --loss=cross_entropy --num_layers=3 --optimizer=nag --weight_decay=0.0005 --weight_init=xavier
+2026-03-06 21:18:27 INFO Running runs: ['kavk980f']
+2026-03-06 21:19:39 INFO Cleaning up finished run: kavk980f
+2026-03-06 21:19:42 INFO Agent received command: run
+2026-03-06 21:19:42 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 32
+	dataset: mnist
+	epochs: 10
+	hidden_size: 128
+	learning_rate: 0.05
+	loss: cross_entropy
+	num_layers: 3
+	optimizer: momentum
+	weight_decay: 0.0005
+	weight_init: xavier
+2026-03-06 21:19:42 INFO About to run command: /usr/bin/env python src/train.py --activation=sigmoid --batch_size=32 --dataset=mnist --epochs=10 --hidden_size=128 --learning_rate=0.05 --loss=cross_entropy --num_layers=3 --optimizer=momentum --weight_decay=0.0005 --weight_init=xavier
+2026-03-06 21:19:47 INFO Running runs: ['w5c8fqdh']
+2026-03-06 21:20:46 INFO Cleaning up finished run: w5c8fqdh
+2026-03-06 21:20:48 INFO Agent received command: run
+2026-03-06 21:20:48 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 32
+	dataset: mnist
+	epochs: 10
+	hidden_size: 128
+	learning_rate: 0.01
+	loss: cross_entropy
+	num_layers: 3
+	optimizer: rmsprop
+	weight_decay: 0.0005
+	weight_init: xavier
+2026-03-06 21:20:48 INFO About to run command: /usr/bin/env python src/train.py --activation=relu --batch_size=32 --dataset=mnist --epochs=10 --hidden_size=128 --learning_rate=0.01 --loss=cross_entropy --num_layers=3 --optimizer=rmsprop --weight_decay=0.0005 --weight_init=xavier
+2026-03-06 21:20:53 INFO Running runs: ['yhgbylux']
+2026-03-06 21:21:48 INFO Cleaning up finished run: yhgbylux
+2026-03-06 21:21:50 INFO Agent received command: run
+2026-03-06 21:21:50 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 64
+	dataset: mnist
+	epochs: 10
+	hidden_size: 128
+	learning_rate: 0.05
+	loss: cross_entropy
+	num_layers: 3
+	optimizer: rmsprop
+	weight_decay: 0.0005
+	weight_init: xavier
+2026-03-06 21:21:50 INFO About to run command: /usr/bin/env python src/train.py --activation=relu --batch_size=64 --dataset=mnist --epochs=10 --hidden_size=128 --learning_rate=0.05 --loss=cross_entropy --num_layers=3 --optimizer=rmsprop --weight_decay=0.0005 --weight_init=xavier
+2026-03-06 21:21:55 INFO Running runs: ['ykzv8nfs']
+2026-03-06 21:22:43 INFO Cleaning up finished run: ykzv8nfs
+2026-03-06 21:22:45 INFO Agent received command: run
+2026-03-06 21:22:45 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 64
+	dataset: mnist
+	epochs: 10
+	hidden_size: 128
+	learning_rate: 0.05
+	loss: cross_entropy
+	num_layers: 3
+	optimizer: nag
+	weight_decay: 0.0005
+	weight_init: xavier
+2026-03-06 21:22:45 INFO About to run command: /usr/bin/env python src/train.py --activation=relu --batch_size=64 --dataset=mnist --epochs=10 --hidden_size=128 --learning_rate=0.05 --loss=cross_entropy --num_layers=3 --optimizer=nag --weight_decay=0.0005 --weight_init=xavier
+2026-03-06 21:22:50 INFO Running runs: ['v83irdvt']
+2026-03-06 21:23:35 INFO Cleaning up finished run: v83irdvt
+2026-03-06 21:23:37 INFO Agent received command: run
+2026-03-06 21:23:37 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 128
+	dataset: mnist
+	epochs: 10
+	hidden_size: 128
+	learning_rate: 0.01
+	loss: cross_entropy
+	num_layers: 3
+	optimizer: rmsprop
+	weight_decay: 0
+	weight_init: random
+2026-03-06 21:23:37 INFO About to run command: /usr/bin/env python src/train.py --activation=tanh --batch_size=128 --dataset=mnist --epochs=10 --hidden_size=128 --learning_rate=0.01 --loss=cross_entropy --num_layers=3 --optimizer=rmsprop --weight_decay=0 --weight_init=random
+2026-03-06 21:23:42 INFO Running runs: ['o5ismopl']
+2026-03-06 21:24:25 INFO Cleaning up finished run: o5ismopl
+2026-03-06 21:24:26 INFO Agent received command: run
+2026-03-06 21:24:26 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 64
+	dataset: mnist
+	epochs: 10
+	hidden_size: 128
+	learning_rate: 0.01
+	loss: cross_entropy
+	num_layers: 2
+	optimizer: rmsprop
+	weight_decay: 0
+	weight_init: random
+2026-03-06 21:24:26 INFO About to run command: /usr/bin/env python src/train.py --activation=sigmoid --batch_size=64 --dataset=mnist --epochs=10 --hidden_size=128 --learning_rate=0.01 --loss=cross_entropy --num_layers=2 --optimizer=rmsprop --weight_decay=0 --weight_init=random
+2026-03-06 21:24:31 INFO Running runs: ['ex4muhxk']
+2026-03-06 21:25:16 INFO Cleaning up finished run: ex4muhxk
+2026-03-06 21:25:18 INFO Agent received command: run
+2026-03-06 21:25:18 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 64
+	dataset: mnist
+	epochs: 10
+	hidden_size: 128
+	learning_rate: 0.05
+	loss: cross_entropy
+	num_layers: 3
+	optimizer: nag
+	weight_decay: 0.0005
+	weight_init: xavier
+2026-03-06 21:25:18 INFO About to run command: /usr/bin/env python src/train.py --activation=relu --batch_size=64 --dataset=mnist --epochs=10 --hidden_size=128 --learning_rate=0.05 --loss=cross_entropy --num_layers=3 --optimizer=nag --weight_decay=0.0005 --weight_init=xavier
+2026-03-06 21:25:23 INFO Running runs: ['xkv1suix']
+2026-03-06 21:26:13 INFO Cleaning up finished run: xkv1suix
+2026-03-06 21:26:16 INFO Agent received command: run
+2026-03-06 21:26:16 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 32
+	dataset: mnist
+	epochs: 10
+	hidden_size: 128
+	learning_rate: 0.05
+	loss: cross_entropy
+	num_layers: 2
+	optimizer: nag
+	weight_decay: 0.0005
+	weight_init: xavier
+2026-03-06 21:26:16 INFO About to run command: /usr/bin/env python src/train.py --activation=relu --batch_size=32 --dataset=mnist --epochs=10 --hidden_size=128 --learning_rate=0.05 --loss=cross_entropy --num_layers=2 --optimizer=nag --weight_decay=0.0005 --weight_init=xavier
+2026-03-06 21:26:21 INFO Running runs: ['a1dftm2c']
+2026-03-06 21:27:22 INFO Cleaning up finished run: a1dftm2c
+2026-03-06 21:27:24 INFO Agent received command: run
+2026-03-06 21:27:24 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 64
+	dataset: mnist
+	epochs: 10
+	hidden_size: 128
+	learning_rate: 0.05
+	loss: cross_entropy
+	num_layers: 3
+	optimizer: nag
+	weight_decay: 0.0005
+	weight_init: xavier
+2026-03-06 21:27:24 INFO About to run command: /usr/bin/env python src/train.py --activation=relu --batch_size=64 --dataset=mnist --epochs=10 --hidden_size=128 --learning_rate=0.05 --loss=cross_entropy --num_layers=3 --optimizer=nag --weight_decay=0.0005 --weight_init=xavier
+2026-03-06 21:27:29 INFO Running runs: ['l833kqaw']
+2026-03-06 21:28:35 INFO Cleaning up finished run: l833kqaw
+2026-03-06 21:28:36 INFO Agent received command: run
+2026-03-06 21:28:36 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 128
+	dataset: mnist
+	epochs: 10
+	hidden_size: 128
+	learning_rate: 0.05
+	loss: cross_entropy
+	num_layers: 2
+	optimizer: rmsprop
+	weight_decay: 0
+	weight_init: random
+2026-03-06 21:28:36 INFO About to run command: /usr/bin/env python src/train.py --activation=tanh --batch_size=128 --dataset=mnist --epochs=10 --hidden_size=128 --learning_rate=0.05 --loss=cross_entropy --num_layers=2 --optimizer=rmsprop --weight_decay=0 --weight_init=random
+2026-03-06 21:28:41 INFO Running runs: ['ld04wmhq']
+2026-03-06 21:29:20 INFO Cleaning up finished run: ld04wmhq
+2026-03-06 21:29:22 INFO Agent received command: run
+2026-03-06 21:29:22 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 32
+	dataset: mnist
+	epochs: 10
+	hidden_size: 128
+	learning_rate: 0.01
+	loss: cross_entropy
+	num_layers: 3
+	optimizer: nag
+	weight_decay: 0.0005
+	weight_init: xavier
+2026-03-06 21:29:22 INFO About to run command: /usr/bin/env python src/train.py --activation=relu --batch_size=32 --dataset=mnist --epochs=10 --hidden_size=128 --learning_rate=0.01 --loss=cross_entropy --num_layers=3 --optimizer=nag --weight_decay=0.0005 --weight_init=xavier
+2026-03-06 21:29:27 INFO Running runs: ['36rnu028']
+2026-03-06 21:30:44 INFO Cleaning up finished run: 36rnu028
+2026-03-06 21:30:46 INFO Agent received command: run
+2026-03-06 21:30:46 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 128
+	dataset: mnist
+	epochs: 10
+	hidden_size: 128
+	learning_rate: 0.01
+	loss: cross_entropy
+	num_layers: 2
+	optimizer: rmsprop
+	weight_decay: 0
+	weight_init: random
+2026-03-06 21:30:46 INFO About to run command: /usr/bin/env python src/train.py --activation=tanh --batch_size=128 --dataset=mnist --epochs=10 --hidden_size=128 --learning_rate=0.01 --loss=cross_entropy --num_layers=2 --optimizer=rmsprop --weight_decay=0 --weight_init=random
+2026-03-06 21:30:51 INFO Running runs: ['jl05kyf7']
+2026-03-06 21:31:36 INFO Cleaning up finished run: jl05kyf7
+2026-03-06 21:31:38 INFO Agent received command: run
+2026-03-06 21:31:38 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 32
+	dataset: mnist
+	epochs: 10
+	hidden_size: 128
+	learning_rate: 0.05
+	loss: cross_entropy
+	num_layers: 2
+	optimizer: rmsprop
+	weight_decay: 0.0005
+	weight_init: xavier
+2026-03-06 21:31:38 INFO About to run command: /usr/bin/env python src/train.py --activation=relu --batch_size=32 --dataset=mnist --epochs=10 --hidden_size=128 --learning_rate=0.05 --loss=cross_entropy --num_layers=2 --optimizer=rmsprop --weight_decay=0.0005 --weight_init=xavier
+2026-03-06 21:31:43 INFO Running runs: ['cx2b7d3q']
+2026-03-06 21:32:44 INFO Cleaning up finished run: cx2b7d3q
+2026-03-06 21:32:46 INFO Agent received command: run
+2026-03-06 21:32:46 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 128
+	dataset: mnist
+	epochs: 10
+	hidden_size: 128
+	learning_rate: 0.05
+	loss: cross_entropy
+	num_layers: 2
+	optimizer: rmsprop
+	weight_decay: 0
+	weight_init: random
+2026-03-06 21:32:46 INFO About to run command: /usr/bin/env python src/train.py --activation=sigmoid --batch_size=128 --dataset=mnist --epochs=10 --hidden_size=128 --learning_rate=0.05 --loss=cross_entropy --num_layers=2 --optimizer=rmsprop --weight_decay=0 --weight_init=random
+2026-03-06 21:32:51 INFO Running runs: ['rfd1e68w']
+2026-03-06 21:33:31 INFO Cleaning up finished run: rfd1e68w
+2026-03-06 21:33:33 INFO Agent received command: run
+2026-03-06 21:33:33 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 64
+	dataset: mnist
+	epochs: 10
+	hidden_size: 128
+	learning_rate: 0.05
+	loss: cross_entropy
+	num_layers: 2
+	optimizer: nag
+	weight_decay: 0.0005
+	weight_init: xavier
+2026-03-06 21:33:33 INFO About to run command: /usr/bin/env python src/train.py --activation=relu --batch_size=64 --dataset=mnist --epochs=10 --hidden_size=128 --learning_rate=0.05 --loss=cross_entropy --num_layers=2 --optimizer=nag --weight_decay=0.0005 --weight_init=xavier
+2026-03-06 21:33:38 INFO Running runs: ['zh6u7kw6']
+2026-03-06 21:34:23 INFO Cleaning up finished run: zh6u7kw6
+2026-03-06 21:34:25 INFO Agent received command: run
+2026-03-06 21:34:25 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 64
+	dataset: mnist
+	epochs: 10
+	hidden_size: 128
+	learning_rate: 0.05
+	loss: cross_entropy
+	num_layers: 2
+	optimizer: nag
+	weight_decay: 0.0005
+	weight_init: xavier
+2026-03-06 21:34:25 INFO About to run command: /usr/bin/env python src/train.py --activation=relu --batch_size=64 --dataset=mnist --epochs=10 --hidden_size=128 --learning_rate=0.05 --loss=cross_entropy --num_layers=2 --optimizer=nag --weight_decay=0.0005 --weight_init=xavier
+2026-03-06 21:34:30 INFO Running runs: ['jolo6vp0']
+2026-03-06 21:35:21 INFO Cleaning up finished run: jolo6vp0
+2026-03-06 21:35:23 INFO Agent received command: run
+2026-03-06 21:35:23 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 64
+	dataset: mnist
+	epochs: 10
+	hidden_size: 128
+	learning_rate: 0.01
+	loss: cross_entropy
+	num_layers: 3
+	optimizer: nag
+	weight_decay: 0.0005
+	weight_init: xavier
+2026-03-06 21:35:23 INFO About to run command: /usr/bin/env python src/train.py --activation=relu --batch_size=64 --dataset=mnist --epochs=10 --hidden_size=128 --learning_rate=0.01 --loss=cross_entropy --num_layers=3 --optimizer=nag --weight_decay=0.0005 --weight_init=xavier
+2026-03-06 21:35:28 INFO Running runs: ['vshjpsrn']
+2026-03-06 21:36:23 INFO Cleaning up finished run: vshjpsrn
+2026-03-06 21:36:25 INFO Agent received command: run
+2026-03-06 21:36:25 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 64
+	dataset: mnist
+	epochs: 10
+	hidden_size: 128
+	learning_rate: 0.05
+	loss: cross_entropy
+	num_layers: 3
+	optimizer: rmsprop
+	weight_decay: 0.0005
+	weight_init: xavier
+2026-03-06 21:36:25 INFO About to run command: /usr/bin/env python src/train.py --activation=relu --batch_size=64 --dataset=mnist --epochs=10 --hidden_size=128 --learning_rate=0.05 --loss=cross_entropy --num_layers=3 --optimizer=rmsprop --weight_decay=0.0005 --weight_init=xavier
+2026-03-06 21:36:30 INFO Running runs: ['aydqo3yp']
+2026-03-06 21:37:22 INFO Cleaning up finished run: aydqo3yp
+2026-03-06 21:37:25 INFO Agent received command: run
+2026-03-06 21:37:25 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 128
+	dataset: mnist
+	epochs: 10
+	hidden_size: 128
+	learning_rate: 0.05
+	loss: cross_entropy
+	num_layers: 2
+	optimizer: rmsprop
+	weight_decay: 0
+	weight_init: random
+2026-03-06 21:37:25 INFO About to run command: /usr/bin/env python src/train.py --activation=tanh --batch_size=128 --dataset=mnist --epochs=10 --hidden_size=128 --learning_rate=0.05 --loss=cross_entropy --num_layers=2 --optimizer=rmsprop --weight_decay=0 --weight_init=random
+2026-03-06 21:37:30 INFO Running runs: ['d0z7sx6d']
+2026-03-06 21:38:19 INFO Cleaning up finished run: d0z7sx6d
+2026-03-06 21:38:21 INFO Agent received command: run
+2026-03-06 21:38:21 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 128
+	dataset: mnist
+	epochs: 10
+	hidden_size: 128
+	learning_rate: 0.01
+	loss: cross_entropy
+	num_layers: 4
+	optimizer: rmsprop
+	weight_decay: 0
+	weight_init: random
+2026-03-06 21:38:21 INFO About to run command: /usr/bin/env python src/train.py --activation=tanh --batch_size=128 --dataset=mnist --epochs=10 --hidden_size=128 --learning_rate=0.01 --loss=cross_entropy --num_layers=4 --optimizer=rmsprop --weight_decay=0 --weight_init=random
+2026-03-06 21:38:26 INFO Running runs: ['v75hhutg']
+2026-03-06 21:39:10 INFO Cleaning up finished run: v75hhutg
+2026-03-06 21:39:14 INFO Agent received command: run
+2026-03-06 21:39:14 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 64
+	dataset: mnist
+	epochs: 10
+	hidden_size: 128
+	learning_rate: 0.05
+	loss: cross_entropy
+	num_layers: 3
+	optimizer: rmsprop
+	weight_decay: 0
+	weight_init: random
+2026-03-06 21:39:14 INFO About to run command: /usr/bin/env python src/train.py --activation=sigmoid --batch_size=64 --dataset=mnist --epochs=10 --hidden_size=128 --learning_rate=0.05 --loss=cross_entropy --num_layers=3 --optimizer=rmsprop --weight_decay=0 --weight_init=random
+2026-03-06 21:39:19 INFO Running runs: ['vex0v611']
+2026-03-06 21:40:19 INFO Cleaning up finished run: vex0v611
+2026-03-06 21:40:22 INFO Agent received command: run
+2026-03-06 21:40:22 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 64
+	dataset: mnist
+	epochs: 10
+	hidden_size: 128
+	learning_rate: 0.05
+	loss: cross_entropy
+	num_layers: 3
+	optimizer: nag
+	weight_decay: 0.0005
+	weight_init: random
+2026-03-06 21:40:22 INFO About to run command: /usr/bin/env python src/train.py --activation=relu --batch_size=64 --dataset=mnist --epochs=10 --hidden_size=128 --learning_rate=0.05 --loss=cross_entropy --num_layers=3 --optimizer=nag --weight_decay=0.0005 --weight_init=random
+2026-03-06 21:40:27 INFO Running runs: ['2bb02c7q']
+2026-03-06 21:41:24 INFO Cleaning up finished run: 2bb02c7q
+2026-03-06 21:41:27 INFO Agent received command: run
+2026-03-06 21:41:27 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 32
+	dataset: mnist
+	epochs: 10
+	hidden_size: 128
+	learning_rate: 0.05
+	loss: cross_entropy
+	num_layers: 3
+	optimizer: nag
+	weight_decay: 0.0005
+	weight_init: xavier
+2026-03-06 21:41:27 INFO About to run command: /usr/bin/env python src/train.py --activation=relu --batch_size=32 --dataset=mnist --epochs=10 --hidden_size=128 --learning_rate=0.05 --loss=cross_entropy --num_layers=3 --optimizer=nag --weight_decay=0.0005 --weight_init=xavier
+2026-03-06 21:41:32 INFO Running runs: ['wxw0jybq']
+2026-03-06 21:42:45 INFO Cleaning up finished run: wxw0jybq
+2026-03-06 21:42:47 INFO Agent received command: run
+2026-03-06 21:42:47 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 64
+	dataset: mnist
+	epochs: 10
+	hidden_size: 128
+	learning_rate: 0.05
+	loss: cross_entropy
+	num_layers: 3
+	optimizer: nag
+	weight_decay: 0.0005
+	weight_init: xavier
+2026-03-06 21:42:47 INFO About to run command: /usr/bin/env python src/train.py --activation=relu --batch_size=64 --dataset=mnist --epochs=10 --hidden_size=128 --learning_rate=0.05 --loss=cross_entropy --num_layers=3 --optimizer=nag --weight_decay=0.0005 --weight_init=xavier
+2026-03-06 21:42:52 INFO Running runs: ['vvh5k8re']
+2026-03-06 21:43:42 INFO Cleaning up finished run: vvh5k8re
+2026-03-06 21:43:44 INFO Agent received command: run
+2026-03-06 21:43:44 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 32
+	dataset: mnist
+	epochs: 10
+	hidden_size: 128
+	learning_rate: 0.05
+	loss: cross_entropy
+	num_layers: 3
+	optimizer: nag
+	weight_decay: 0.0005
+	weight_init: xavier
+2026-03-06 21:43:44 INFO About to run command: /usr/bin/env python src/train.py --activation=sigmoid --batch_size=32 --dataset=mnist --epochs=10 --hidden_size=128 --learning_rate=0.05 --loss=cross_entropy --num_layers=3 --optimizer=nag --weight_decay=0.0005 --weight_init=xavier
+2026-03-06 21:43:49 INFO Running runs: ['xmufngnb']
+2026-03-06 21:45:14 INFO Cleaning up finished run: xmufngnb
+2026-03-06 21:45:21 INFO Agent received command: run
+2026-03-06 21:45:21 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 32
+	dataset: mnist
+	epochs: 10
+	hidden_size: 128
+	learning_rate: 0.01
+	loss: cross_entropy
+	num_layers: 3
+	optimizer: nag
+	weight_decay: 0.0005
+	weight_init: xavier
+2026-03-06 21:45:21 INFO About to run command: /usr/bin/env python src/train.py --activation=relu --batch_size=32 --dataset=mnist --epochs=10 --hidden_size=128 --learning_rate=0.01 --loss=cross_entropy --num_layers=3 --optimizer=nag --weight_decay=0.0005 --weight_init=xavier
+2026-03-06 21:45:26 INFO Running runs: ['d1kimkpq']
+2026-03-06 21:46:28 INFO Cleaning up finished run: d1kimkpq
+2026-03-06 21:46:31 INFO Agent received command: run
+2026-03-06 21:46:31 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 128
+	dataset: mnist
+	epochs: 10
+	hidden_size: 128
+	learning_rate: 0.05
+	loss: cross_entropy
+	num_layers: 2
+	optimizer: rmsprop
+	weight_decay: 0.0005
+	weight_init: random
+2026-03-06 21:46:31 INFO About to run command: /usr/bin/env python src/train.py --activation=sigmoid --batch_size=128 --dataset=mnist --epochs=10 --hidden_size=128 --learning_rate=0.05 --loss=cross_entropy --num_layers=2 --optimizer=rmsprop --weight_decay=0.0005 --weight_init=random
+2026-03-06 21:46:36 INFO Running runs: ['jq47yidn']
+2026-03-06 21:47:08 INFO Cleaning up finished run: jq47yidn
+2026-03-06 21:47:10 INFO Agent received command: run
+2026-03-06 21:47:10 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 64
+	dataset: mnist
+	epochs: 10
+	hidden_size: 128
+	learning_rate: 0.005
+	loss: cross_entropy
+	num_layers: 3
+	optimizer: rmsprop
+	weight_decay: 0
+	weight_init: xavier
+2026-03-06 21:47:10 INFO About to run command: /usr/bin/env python src/train.py --activation=sigmoid --batch_size=64 --dataset=mnist --epochs=10 --hidden_size=128 --learning_rate=0.005 --loss=cross_entropy --num_layers=3 --optimizer=rmsprop --weight_decay=0 --weight_init=xavier
+2026-03-06 21:47:15 INFO Running runs: ['1codh66u']
+2026-03-06 21:48:11 INFO Cleaning up finished run: 1codh66u
+2026-03-06 21:48:15 INFO Agent received command: run
+2026-03-06 21:48:15 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 64
+	dataset: mnist
+	epochs: 10
+	hidden_size: 128
+	learning_rate: 0.01
+	loss: cross_entropy
+	num_layers: 3
+	optimizer: rmsprop
+	weight_decay: 0.0005
+	weight_init: xavier
+2026-03-06 21:48:15 INFO About to run command: /usr/bin/env python src/train.py --activation=relu --batch_size=64 --dataset=mnist --epochs=10 --hidden_size=128 --learning_rate=0.01 --loss=cross_entropy --num_layers=3 --optimizer=rmsprop --weight_decay=0.0005 --weight_init=xavier
+2026-03-06 21:48:20 INFO Running runs: ['i9if8oci']
+2026-03-06 21:49:04 INFO Cleaning up finished run: i9if8oci
+2026-03-06 21:49:11 INFO Agent received command: run
+2026-03-06 21:49:11 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 128
+	dataset: mnist
+	epochs: 10
+	hidden_size: 128
+	learning_rate: 0.05
+	loss: cross_entropy
+	num_layers: 2
+	optimizer: rmsprop
+	weight_decay: 0
+	weight_init: xavier
+2026-03-06 21:49:11 INFO About to run command: /usr/bin/env python src/train.py --activation=tanh --batch_size=128 --dataset=mnist --epochs=10 --hidden_size=128 --learning_rate=0.05 --loss=cross_entropy --num_layers=2 --optimizer=rmsprop --weight_decay=0 --weight_init=xavier
+2026-03-06 21:49:16 INFO Running runs: ['12g0jdq8']
+2026-03-06 21:49:57 INFO Cleaning up finished run: 12g0jdq8
+2026-03-06 21:49:58 INFO Agent received command: run
+2026-03-06 21:49:58 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 64
+	dataset: mnist
+	epochs: 10
+	hidden_size: 128
+	learning_rate: 0.05
+	loss: cross_entropy
+	num_layers: 2
+	optimizer: nag
+	weight_decay: 0.0005
+	weight_init: random
+2026-03-06 21:49:58 INFO About to run command: /usr/bin/env python src/train.py --activation=relu --batch_size=64 --dataset=mnist --epochs=10 --hidden_size=128 --learning_rate=0.05 --loss=cross_entropy --num_layers=2 --optimizer=nag --weight_decay=0.0005 --weight_init=random
+2026-03-06 21:50:03 INFO Running runs: ['wynttary']
+2026-03-06 21:51:05 INFO Cleaning up finished run: wynttary
+2026-03-06 21:51:08 INFO Agent received command: run
+2026-03-06 21:51:08 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 128
+	dataset: mnist
+	epochs: 10
+	hidden_size: 128
+	learning_rate: 0.05
+	loss: cross_entropy
+	num_layers: 3
+	optimizer: rmsprop
+	weight_decay: 0
+	weight_init: random
+2026-03-06 21:51:08 INFO About to run command: /usr/bin/env python src/train.py --activation=tanh --batch_size=128 --dataset=mnist --epochs=10 --hidden_size=128 --learning_rate=0.05 --loss=cross_entropy --num_layers=3 --optimizer=rmsprop --weight_decay=0 --weight_init=random
+2026-03-06 21:51:13 INFO Running runs: ['l6rpjxab']
+2026-03-06 21:51:57 INFO Cleaning up finished run: l6rpjxab
+2026-03-06 21:51:59 INFO Agent received command: run
+2026-03-06 21:51:59 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 32
+	dataset: mnist
+	epochs: 10
+	hidden_size: 128
+	learning_rate: 0.05
+	loss: cross_entropy
+	num_layers: 2
+	optimizer: rmsprop
+	weight_decay: 0.0005
+	weight_init: random
+2026-03-06 21:51:59 INFO About to run command: /usr/bin/env python src/train.py --activation=relu --batch_size=32 --dataset=mnist --epochs=10 --hidden_size=128 --learning_rate=0.05 --loss=cross_entropy --num_layers=2 --optimizer=rmsprop --weight_decay=0.0005 --weight_init=random
+2026-03-06 21:52:04 INFO Running runs: ['whyo6w4d']
+2026-03-06 21:53:06 INFO Cleaning up finished run: whyo6w4d
+2026-03-06 21:53:10 INFO Agent received command: run
+2026-03-06 21:53:10 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 64
+	dataset: mnist
+	epochs: 10
+	hidden_size: 128
+	learning_rate: 0.05
+	loss: cross_entropy
+	num_layers: 3
+	optimizer: momentum
+	weight_decay: 0.0005
+	weight_init: xavier
+2026-03-06 21:53:10 INFO About to run command: /usr/bin/env python src/train.py --activation=relu --batch_size=64 --dataset=mnist --epochs=10 --hidden_size=128 --learning_rate=0.05 --loss=cross_entropy --num_layers=3 --optimizer=momentum --weight_decay=0.0005 --weight_init=xavier
+2026-03-06 21:53:15 INFO Running runs: ['vl88laxm']
+2026-03-06 21:54:00 INFO Cleaning up finished run: vl88laxm
+2026-03-06 21:54:03 INFO Agent received command: run
+2026-03-06 21:54:03 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 32
+	dataset: mnist
+	epochs: 10
+	hidden_size: 128
+	learning_rate: 0.05
+	loss: cross_entropy
+	num_layers: 3
+	optimizer: nag
+	weight_decay: 0.0005
+	weight_init: random
+2026-03-06 21:54:03 INFO About to run command: /usr/bin/env python src/train.py --activation=relu --batch_size=32 --dataset=mnist --epochs=10 --hidden_size=128 --learning_rate=0.05 --loss=cross_entropy --num_layers=3 --optimizer=nag --weight_decay=0.0005 --weight_init=random
+2026-03-06 21:54:08 INFO Running runs: ['2cp22h8a']
+2026-03-06 21:55:32 INFO Cleaning up finished run: 2cp22h8a
+2026-03-06 21:55:35 INFO Agent received command: run
+2026-03-06 21:55:35 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 128
+	dataset: mnist
+	epochs: 10
+	hidden_size: 128
+	learning_rate: 0.05
+	loss: cross_entropy
+	num_layers: 3
+	optimizer: rmsprop
+	weight_decay: 0.0005
+	weight_init: xavier
+2026-03-06 21:55:35 INFO About to run command: /usr/bin/env python src/train.py --activation=relu --batch_size=128 --dataset=mnist --epochs=10 --hidden_size=128 --learning_rate=0.05 --loss=cross_entropy --num_layers=3 --optimizer=rmsprop --weight_decay=0.0005 --weight_init=xavier
+2026-03-06 21:55:40 INFO Running runs: ['1y4jl0l3']
